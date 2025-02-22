@@ -3,6 +3,9 @@ project:
 
 website:
   title: "roberto-marino.github.io"
+  repo-url: "https://github.com/roberto-marino/roberto-marino.github.io"
+  site-url: "https://roberto-marino.github.io/"
+
   navbar:
     left:
       - href: index.qmd
