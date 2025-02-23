@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "roberto-marino.github.io"
+  title: "Roberto Marino"
   repo-url: "https://github.com/roberto-marino/roberto-marino.github.io"
   site-url: "https://roberto-marino.github.io/"
 
@@ -11,7 +11,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about
+        text: About
+      - href: papers
+        text: Papers
+      - href: teaching
+        text: Teaching
+  page-footer:
+    left: "(c) Roberto Marino, 2025–. [Disclaimer](disclaimer)"
+  twitter-card: true
+  open-graph: true
+  google-analytics: ""
 
 format:
   html:

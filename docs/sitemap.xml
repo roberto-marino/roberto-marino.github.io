@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://roberto-marino.github.io/index.html</loc>
-    <lastmod>2025-02-22T22:23:53.080Z</lastmod>
+    <loc>https://roberto-marino.github.io/teaching/teaching.html</loc>
+    <lastmod>2025-02-23T00:19:20.768Z</lastmod>
   </url>
   <url>
-    <loc>https://roberto-marino.github.io/about.html</loc>
+    <loc>https://roberto-marino.github.io/papers/papers.html</loc>
+    <lastmod>2025-02-23T00:17:19.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://roberto-marino.github.io/about/about.html</loc>
     <lastmod>2025-02-22T22:24:43.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://roberto-marino.github.io/index.html</loc>
+    <lastmod>2025-02-22T22:23:53.080Z</lastmod>
   </url>
 </urlset>
