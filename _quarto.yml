@@ -11,11 +11,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about
+      - href: about/about.qmd
         text: About
-      - href: papers
+      - href: papers/papers.qmd
         text: Papers
-      - href: teaching
+      - href: teaching/teaching.qmd
         text: Teaching
   page-footer:
     left: "(c) Roberto Marino, 2025–. [Disclaimer](disclaimer)"
