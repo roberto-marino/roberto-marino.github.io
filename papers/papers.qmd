@@ -1,20 +1,148 @@
 ---
-title: Papers
+nocite: "[@*]"
+references:
+- author:
+  - family: Marino
+    given: Roberto
+  - family: Mastrogiovanni
+    given: Fulvio
+  - family: Sgorbissa
+    given: Antonio
+  - family: Zaccaria
+    given: Renato
+  container-title: Intelligent autonomous systems 13
+  doi: 10.1007/978-3-319-08338-4_112
+  id: Marino2015
+  issued: 2015-09
+  page: 1561-1570
+  publisher: Springer International Publishing
+  title: A minimalistic quadrotor navigation strategy for indoor
+    multi-floor scenarios
+  type: chapter
+  url: "https://doi.org/10.1007/978-3-319-08338-4_112"
+- author:
+  - family: Marino
+    given: Roberto
+  - family: Carnevale
+    given: Lorenzo
+  - family: Villari
+    given: Massimo
+  container-title: IEEE ISCC 2023 conference
+  doi: 10.1109/ISCC58397.2023.10218022
+  id: FedRob
+  issued: 2023-05
+  publisher: IEEE
+  title: "When robotics meets distributed learning: The federated
+    learning robotic network framework"
+  title-short: When robotics meets distributed learning
+  type: chapter
+  url: "https://doi.org/10.1109/iscc58397.2023.10218022"
+- author:
+  - family: Marino
+    given: Roberto
+  - family: Carnevale
+    given: Lorenzo
+  - family: Fazio
+    given: Maria
+  - family: Villari
+    given: Massimo
+  container-title: UCC 2023 conference
+  doi: 10.1145/3603166.3632086
+  id: FedRos1
+  issued: 2023
+  publisher: ACM
+  title: Make federated learning a standard in robotics by using ROS2
+  type: chapter
+  url: "https://doi.org/10.1145/3603166.3632086"
+- author:
+  - family: Marino
+    given: Roberto
+  - family: Marino
+    given: Antonino
+  - dropping-particle: de
+    family: Domenico
+    given: Domenica
+  - family: Carnevale
+    given: Lorenzo
+  - family: Magazu
+    given: Salvatore
+  - family: Villari
+    given: Massimo
+  container-title: UCC 2023 conference
+  doi: Accepted
+  id: OpenSEMPoster
+  issued: 2023
+  publisher: ACM
+  title: "OpenSEM: An open framework for data-driven structural and
+    environmental monitoring"
+  title-short: OpenSEM
+  type: chapter
+- author:
+  - family: Carnevale
+    given: Lorenzo
+  - family: Filograna
+    given: Antonio
+  - family: Arigliano
+    given: Francesco
+  - family: Marino
+    given: Roberto
+  - family: Fazio
+    given: Maria
+  - family: Villari
+    given: Massimo
+  container-title: UCC 2023 conference
+  doi: Accepted
+  id: TemaArch
+  issued: 2023
+  publisher: ACM
+  title: "Supporting the natural disaster management distributing
+    federated intelligence over the cloud-edge continuum: The TEMA
+    architecture"
+  title-short: Supporting the natural disaster management distributing
+    federated intelligence over the cloud-edge continuum
+  type: chapter
+- author:
+  - family: Colosi
+    given: Mario
+  - family: Garofalo
+    given: Marco
+  - family: Carnevale
+    given: Lorenzo
+  - family: Marino
+    given: Roberto
+  - family: Fazio
+    given: Maria
+  - family: Villari
+    given: Massimo
+  container-title: UCC 2023 conference
+  doi: Accepted
+  id: EDGEmergency
+  issued: 2023
+  publisher: ACM
+  title: "EDGEmergency: A cloud-edge platform to enable pervasive
+    computing for disaster management"
+  title-short: EDGEmergency
+  type: chapter
+- author:
+  - family: Marino
+    given: Roberto
+  - family: Marino
+    given: Antonino
+  - family: Domenico
+    given: Domenica De
+  - family: Carnevale
+    given: Lorenzo
+  - family: Gambito
+    given: Mark Adrian
+  - family: Villari
+    given: Massimo
+  container-title: IEEE ISCC 2024 conference
+  doi: Accepted
+  id: DataDrivenSHM
+  issued: 2024-05
+  publisher: IEE
+  title: A low cost platform for distributed data-driven structural
+    health monitoring
+  type: chapter
 ---
-
-# Books
-
-- **von Csefalvay C** (2023). Computational Modeling of Infectious Disease: With applications in Python. Amsterdam: Elsevier. [https://elsevier.com/books/computational-modeling-of-infectious-disease/von-csefalvay/978-0-323-95389-4](https://elsevier.com/books/computational-modeling-of-infectious-disease/von-csefalvay/978-0-323-95389-4).
-
-- **von Csefalvay C**, Nam D T, Melis A, Halonen M, Edison S, Kozdon J, Kwong T, Glaser F, Frid Y, Szarnyas G, Crusius K, de Oliveira Castro PR, Hassler G, Clark AR, Visser M (2021). Learn Julia the Hard Way. [https://doi.org/10.5281/zenodo.4556324](https://doi.org/10.5281/zenodo.4556324)
-
-<!-- references -->
-
-# 2024
-
-- **von Csefalvay C** (2024). DAEDRA: A language model for predicting outcomes in passive pharmacovigilance reporting. _arXiv_ [2402.10951](https://arxiv.org/abs/2402.10951).
-
-# 2023
-
-- Mogere E, Mwaura E, Waithaka M, Mutua V, Mugao M, **von Csefalvay C**, Mukamati D (2023). Juvenile polyposis syndrome: A case report. _Clinical Case Reports_ 2023;**11**:e6798. doi:[10.1002/ccr3.6798](https://doi.org/10.1002/ccr3.6798)
 
