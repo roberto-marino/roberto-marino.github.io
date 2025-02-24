@@ -18,7 +18,7 @@ website:
       - href: teaching/teaching.qmd
         text: Teaching
   page-footer:
-    left: "(c) Roberto Marino, 2025–. [Disclaimer](disclaimer)"
+    left: "(c) Roberto Marino, 2025-(+inf)"
   twitter-card: true
   open-graph: true
   google-analytics: ""
