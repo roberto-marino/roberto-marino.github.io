@@ -4,7 +4,7 @@ title: "Teaching"
 
 # Laboratorio di Reti e Sistemi Distributi 
 
-## (Reti e Sistemi Distributi Mod.B)
+## (Reti di Calcolatori e Sistemi Distributi Mod.B)
 
 ### Anno Accademico 24/25
 
@@ -16,9 +16,9 @@ Il corso, diviso in tre parti, si propone di:
 
 * Parte III: Introdurre le tematiche della **programmazione distributa** attraverso il modello ad Automi a Stati Finiti
 
-| Data             | Lezione                          | Materiale                                |
-|------------------|----------------------------------|------------------------------------------|
-| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    |
+| Data             | Lezione                          | Materiale                                | Riferimenti   |
+|------------------|----------------------------------|------------------------------------------|---------------|
+| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    |               |
 
 : Course Schedule {.striped}
 
