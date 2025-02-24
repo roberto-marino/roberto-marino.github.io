@@ -33,7 +33,7 @@ image: img/roberto_marino.jpg
 comments: false
 ---
 
-* "The miracle is this - the more we share, the more we have" ― Leonard Nimoy*
+*"The miracle is this - the more we share, the more we have" ― Leonard Nimoy*
 
 ---
 
