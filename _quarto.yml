@@ -11,8 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about/about.qmd
-        text: About
+#      - href: about/about.qmd
+#        text: About
       - href: papers/papers.qmd
         text: Papers
       - href: teaching/teaching.qmd
