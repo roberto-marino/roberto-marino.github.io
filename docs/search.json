@@ -25,7 +25,14 @@
     "href": "index.html",
     "title": "Roberto Marino, PhD",
     "section": "",
-    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy\nI’m a roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and returned there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
+    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Roberto Marino, PhD",
+    "section": "Bio",
+    "text": "Bio\nI’m a roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and returned there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
   },
   {
     "objectID": "index.html#key-research-interest",
@@ -35,10 +42,10 @@
     "text": "Key research interest\n\nRobotics and Autonomous Systems: aerial robot modeling, data-driven control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)\nScientific Machine Learning: Physics-Informed Neural Network, Neural Stochastic Differential Equations\nDistributed Learning: Federated Learning, Multi-Agent Reinforcement Learning"
   },
   {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
+    "objectID": "index.html#personal-life",
+    "href": "index.html#personal-life",
     "title": "Roberto Marino, PhD",
-    "section": "Bio",
-    "text": "Bio\nI am married to Chiara and I am the father of Emma and Agnese. I have a past as a scout educator in AGESCI (Italian Catholic Guides and Scouts Association), and a present as a volunteer with Migrantes, a reality that is all-around involved in the promotion of migrants and refugees in our city.\nI love music and studied piano for five years at the Conservatory of Messina. I listen in particular to Jazz music, progressive rock and classical music (with a boundless love for Bach and Debussy).\nI love to cook, especially first courses and appetizers, with a preference for traditional Mediterranean dishes."
+    "section": "Personal Life",
+    "text": "Personal Life\nI am married to Chiara and I am the father of Emma and Agnese. I have a past as a scout educator in AGESCI (Italian Catholic Guides and Scouts Association), and a present as a volunteer with Migrantes, a reality that is all-around involved in the promotion of migrants and refugees in our city.\nI love music and studied piano for five years at the Conservatory of Messina. I listen in particular to Jazz music, progressive rock and classical music (with a boundless love for Bach and Debussy).\nI love to cook, especially first courses and appetizers, with a preference for traditional Mediterranean dishes."
   }
 ]
