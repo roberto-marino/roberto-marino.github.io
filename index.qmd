@@ -33,6 +33,9 @@ image: img/roberto_marino.jpg
 comments: false
 ---
 
+* "The miracle is this - the more we share, the more we have" ― Leonard Nimoy*
+
+---
 
 I'm a roboticist working at the intersection of AI/ML, control theory and distributed systems.
 
