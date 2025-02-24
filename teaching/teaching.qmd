@@ -22,6 +22,9 @@ Il corso, diviso in tre parti, si propone di:
 
 : Course Schedule {.striped}
 
+### Modalità d'esame
+Report delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica dei concetti e delle abilità acquisite)
+
 ### Testi Consigliati
 
 * Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
