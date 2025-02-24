@@ -3,7 +3,9 @@ title: "Teaching"
 ---
 
 # Laboratorio di Reti e Sistemi Distributi 
-##(Reti e Sistemi Distributi Mod.B)
+
+## (Reti e Sistemi Distributi Mod.B)
+
 ### Anno Accademico 24/25
 
 | Data     | Lezione  | Materiale |
@@ -11,6 +13,6 @@ title: "Teaching"
 | Data 1   | Data 2   | Data 3    |
 | Data A   | Data B   | Data C    |
 
-: Data Lezione {.striped}
+: Schedule {.striped}
 
 

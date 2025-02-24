@@ -4,7 +4,14 @@
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Laboratorio di Reti e Sistemi Distributi\n##(Reti e Sistemi Distributi Mod.B) ### Anno Accademico 24/25\n\nData Lezione\n\n\nData\nLezione\nMateriale\n\n\n\n\nData 1\nData 2\nData 3\n\n\nData A\nData B\nData C"
+    "text": "Schedule\n\n\nData\nLezione\nMateriale\n\n\n\n\nData 1\nData 2\nData 3\n\n\nData A\nData B\nData C"
+  },
+  {
+    "objectID": "teaching/teaching.html#reti-e-sistemi-distributi-mod.b",
+    "href": "teaching/teaching.html#reti-e-sistemi-distributi-mod.b",
+    "title": "Teaching",
+    "section": "",
+    "text": "Schedule\n\n\nData\nLezione\nMateriale\n\n\n\n\nData 1\nData 2\nData 3\n\n\nData A\nData B\nData C"
   },
   {
     "objectID": "papers/papers.html",
@@ -25,6 +32,6 @@
     "href": "index.html",
     "title": "Roberto Marino",
     "section": "",
-    "text": "I’m a robotics working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and returned there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.\nI’m currently a Research Fellow of Future Computing Research Laboratory of University of Messina, where I currently follow research path in Distributed Learning, Physics-Informed Machine Learning and Clinical Data modeling."
+    "text": "I’m a robotics working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and returned there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
   }
 ]

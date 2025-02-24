@@ -2,23 +2,23 @@
 title: "Roberto Marino"
 about:
     template: trestles
-#    links:
+    links:
 #        - icon: linkedin
 #          text: LinkedIn
 #          url: https://www.linkedin.com/in/chrisvoncsefalvay/
 #        - icon: twitter
 #          text: Twitter
 #          url: https://twitter.com/epichrisis
-#        - icon: github
-#          text: Github
-#          url: https://github.com/chrisvoncsefalvay
+        - icon: github
+          text: Github
+          url: https://github.com/roberto-marino
 #        - icon: instagram
 #          text: Instagram
 #          url: https://www.instagram.com/chrisvoncsefalvay/
-#        - text: "{{< fa envelope >}} Email"
-#          url: mailto:chris+website@chrisvoncsefalvay.com
-#        - text: "{{< ai orcid >}} ORCID 0000-0003-3131-0864"
-#          url: https://orcid.org/0000-0003-3131-0864
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:roberto.marino@unime.it
+        - text: "{{< ai orcid >}} ORCID 0009-0008-4541-1678"
+          url: https://orcid.org/0009-0008-4541-1678
 #        - text: "{{< ai google-scholar >}} Google Scholar"
 #          url: https://scholar.google.com/citations?user=X_2G-VsAAAAJ
 #        - text: "{{< ai viaf >}} VIAF 7190162669581955500004"
@@ -40,4 +40,4 @@ I attended the University of Messina for my undergraduate studies and returned t
 
 I also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.
 
-I'm currently a Research Fellow of Future Computing Research Laboratory of University of Messina, where I currently follow research path in Distributed Learning, Physics-Informed Machine Learning and Clinical Data modeling.
+I'm currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling.
