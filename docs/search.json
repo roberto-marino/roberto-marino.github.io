@@ -9,22 +9,22 @@
   {
     "objectID": "papers/papers.html",
     "href": "papers/papers.html",
-    "title": "Papers",
+    "title": "Roberto Marino",
     "section": "",
-    "text": "Books\n\nvon Csefalvay C (2023). Computational Modeling of Infectious Disease: With applications in Python. Amsterdam: Elsevier. https://elsevier.com/books/computational-modeling-of-infectious-disease/von-csefalvay/978-0-323-95389-4.\nvon Csefalvay C, Nam D T, Melis A, Halonen M, Edison S, Kozdon J, Kwong T, Glaser F, Frid Y, Szarnyas G, Crusius K, de Oliveira Castro PR, Hassler G, Clark AR, Visser M (2021). Learn Julia the Hard Way. https://doi.org/10.5281/zenodo.4556324\n\n\n\n\n2024\n\nvon Csefalvay C (2024). DAEDRA: A language model for predicting outcomes in passive pharmacovigilance reporting. arXiv 2402.10951.\n\n\n\n2023\n\nMogere E, Mwaura E, Waithaka M, Mutua V, Mugao M, von Csefalvay C, Mukamati D (2023). Juvenile polyposis syndrome: A case report. Clinical Case Reports 2023;11:e6798. doi:10.1002/ccr3.6798"
+    "text": "References\n\nCarnevale, Lorenzo, Antonio Filograna, Francesco Arigliano, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: The TEMA Architecture.” In UCC 2023 Conference. ACM. https://doi.org/Accepted.\n\n\nColosi, Mario, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform to Enable Pervasive Computing for Disaster Management.” In UCC 2023 Conference. ACM. https://doi.org/Accepted.\n\n\nMarino, Roberto, Lorenzo Carnevale, Maria Fazio, and Massimo Villari. 2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In UCC 2023 Conference. ACM. https://doi.org/10.1145/3603166.3632086.\n\n\nMarino, Roberto, Lorenzo Carnevale, and Massimo Villari. 2023. “When Robotics Meets Distributed Learning: The Federated Learning Robotic Network Framework.” In IEEE ISCC 2023 Conference. IEEE. https://doi.org/10.1109/ISCC58397.2023.10218022.\n\n\nMarino, Roberto, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost Platform for Distributed Data-Driven Structural Health Monitoring.” In IEEE ISCC 2024 Conference. IEE. https://doi.org/Accepted.\n\n\nMarino, Roberto, Antonino Marino, Domenica de Domenico, Lorenzo Carnevale, Salvatore Magazu, and Massimo Villari. 2023. “OpenSEM: An Open Framework for Data-Driven Structural and Environmental Monitoring.” In UCC 2023 Conference. ACM. https://doi.org/Accepted.\n\n\nMarino, Roberto, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato Zaccaria. 2015. “A Minimalistic Quadrotor Navigation Strategy for Indoor Multi-Floor Scenarios.” In Intelligent Autonomous Systems 13, 1561–70. Springer International Publishing. https://doi.org/10.1007/978-3-319-08338-4_112."
   },
   {
     "objectID": "about/about.html",
     "href": "about/about.html",
     "title": "About",
     "section": "",
-    "text": "Semplicemente Roberto"
+    "text": "TBD"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Roberto Marino",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Personal page of Roberto Marino, PhD"
   }
 ]
