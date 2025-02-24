@@ -18,7 +18,7 @@ Il corso, diviso in tre parti, si propone di:
 
 | Data             | Lezione                          | Materiale                                | Riferimenti   |
 |------------------|----------------------------------|------------------------------------------|---------------|
-| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    | Kurose Ch.1, Lordal Ch.1              |
+| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
 
 : Course Schedule {.striped}
 
