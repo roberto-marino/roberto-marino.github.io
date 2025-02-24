@@ -18,7 +18,7 @@ Il corso, diviso in tre parti, si propone di:
 
 | Data             | Lezione                          | Materiale                                | Riferimenti   |
 |------------------|----------------------------------|------------------------------------------|---------------|
-| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    |               |
+| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    | Kurose Ch.1, Lordal Ch.1              |
 
 : Course Schedule {.striped}
 
@@ -30,13 +30,17 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica
 
 1. Ross Kurose, "Reti di Calcolatori ed Internet. Un approccio Top-down" Pearson, 8th edition [english version on-line](https://www.ucg.ac.me/skladiste/blog_44233/objava_64433/fajlovi/Computer%20Networking%20_%20A%20Top%20Down%20Approach,%207th,%20converted.pdf)
 
-2. Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
+2. Peter L. Lordal, "An Introduction to Computer Networks", [on-line](https://intronetworks.cs.luc.edu/current2/html/index.html)
 
-3. Andrew S. Tanenbaum, "Sistemi Distribuiti. Principi e paradigmi", Pearson
+3. Simone Piccardi, "GAPIL: Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/)
 
-4. Simone Piccardi, "Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/)
+4. Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
 
-5. Peter L. Lordal, "An Introduction to Computer Networks", [on-line](https://intronetworks.cs.luc.edu/current2/html/index.html)
+5. Andrew S. Tanenbaum, "Sistemi Distribuiti. Principi e paradigmi", Pearson
+
+6. Francesco Bullo, Jorge Cortés, Sonia Martinez, "Distributed Control of Robotic Networks", [on-line](https://fbullo.github.io/dcrn/pdfs/DCRN-BulloCortesMartinez-10mar09.pdf)
+
+
 
 
 
