@@ -9,15 +9,14 @@ title: "Teaching"
 ### Anno Accademico 24/25
 
 Il corso, diviso in tre parti, si propone di:
-- affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP
-- introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix
-- introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti
+1. affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP
+2. introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix
+3. introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti
 
 | Data             | Lezione                          | Materiale                                |
 |------------------|----------------------------------|------------------------------------------|
 | 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf)    |
-| Data A   | Data B   | Data C    |
 
-: Schedule {.striped}
+: Course Schedule {.striped}
 
 

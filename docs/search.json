@@ -4,14 +4,14 @@
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Il corso, diviso in tre parti, si propone di: - affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP - introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix - introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\nSchedule\n\n\nData\nLezione\nMateriale\n\n\n\n\n25 Febbraio 2025\nIntroduzione e Packet Analysis\nSlides\n\n\nData A\nData B\nData C"
+    "text": "Il corso, diviso in tre parti, si propone di: 1. affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP 2. introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix 3. introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\nCourse Schedule\n\n\nData\nLezione\nMateriale\n\n\n\n\n25 Febbraio 2025\nIntroduzione e Packet Analysis\nSlides"
   },
   {
     "objectID": "teaching/teaching.html#reti-e-sistemi-distributi-mod.b",
     "href": "teaching/teaching.html#reti-e-sistemi-distributi-mod.b",
     "title": "Teaching",
     "section": "",
-    "text": "Il corso, diviso in tre parti, si propone di: - affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP - introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix - introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\nSchedule\n\n\nData\nLezione\nMateriale\n\n\n\n\n25 Febbraio 2025\nIntroduzione e Packet Analysis\nSlides\n\n\nData A\nData B\nData C"
+    "text": "Il corso, diviso in tre parti, si propone di: 1. affrontare le principali problematiche legate alla programmazione di Rete (socket, socket raw) utilizzando gli strumenti acquisiti per osservare il comportamento dello stack TCP/IP 2. introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix 3. introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\nCourse Schedule\n\n\nData\nLezione\nMateriale\n\n\n\n\n25 Febbraio 2025\nIntroduzione e Packet Analysis\nSlides"
   },
   {
     "objectID": "papers/papers.html",
