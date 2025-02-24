@@ -1,148 +1,50 @@
 ---
-nocite: "[@*]"
-references:
-- author:
-  - family: Marino
-    given: Roberto
-  - family: Mastrogiovanni
-    given: Fulvio
-  - family: Sgorbissa
-    given: Antonio
-  - family: Zaccaria
-    given: Renato
-  container-title: Intelligent autonomous systems 13
-  doi: 10.1007/978-3-319-08338-4_112
-  id: Marino2015
-  issued: 2015-09
-  page: 1561-1570
-  publisher: Springer International Publishing
-  title: A minimalistic quadrotor navigation strategy for indoor
-    multi-floor scenarios
-  type: chapter
-  url: "https://doi.org/10.1007/978-3-319-08338-4_112"
-- author:
-  - family: Marino
-    given: Roberto
-  - family: Carnevale
-    given: Lorenzo
-  - family: Villari
-    given: Massimo
-  container-title: IEEE ISCC 2023 conference
-  doi: 10.1109/ISCC58397.2023.10218022
-  id: FedRob
-  issued: 2023-05
-  publisher: IEEE
-  title: "When robotics meets distributed learning: The federated
-    learning robotic network framework"
-  title-short: When robotics meets distributed learning
-  type: chapter
-  url: "https://doi.org/10.1109/iscc58397.2023.10218022"
-- author:
-  - family: Marino
-    given: Roberto
-  - family: Carnevale
-    given: Lorenzo
-  - family: Fazio
-    given: Maria
-  - family: Villari
-    given: Massimo
-  container-title: UCC 2023 conference
-  doi: 10.1145/3603166.3632086
-  id: FedRos1
-  issued: 2023
-  publisher: ACM
-  title: Make federated learning a standard in robotics by using ROS2
-  type: chapter
-  url: "https://doi.org/10.1145/3603166.3632086"
-- author:
-  - family: Marino
-    given: Roberto
-  - family: Marino
-    given: Antonino
-  - dropping-particle: de
-    family: Domenico
-    given: Domenica
-  - family: Carnevale
-    given: Lorenzo
-  - family: Magazu
-    given: Salvatore
-  - family: Villari
-    given: Massimo
-  container-title: UCC 2023 conference
-  doi: Accepted
-  id: OpenSEMPoster
-  issued: 2023
-  publisher: ACM
-  title: "OpenSEM: An open framework for data-driven structural and
-    environmental monitoring"
-  title-short: OpenSEM
-  type: chapter
-- author:
-  - family: Carnevale
-    given: Lorenzo
-  - family: Filograna
-    given: Antonio
-  - family: Arigliano
-    given: Francesco
-  - family: Marino
-    given: Roberto
-  - family: Fazio
-    given: Maria
-  - family: Villari
-    given: Massimo
-  container-title: UCC 2023 conference
-  doi: Accepted
-  id: TemaArch
-  issued: 2023
-  publisher: ACM
-  title: "Supporting the natural disaster management distributing
-    federated intelligence over the cloud-edge continuum: The TEMA
-    architecture"
-  title-short: Supporting the natural disaster management distributing
-    federated intelligence over the cloud-edge continuum
-  type: chapter
-- author:
-  - family: Colosi
-    given: Mario
-  - family: Garofalo
-    given: Marco
-  - family: Carnevale
-    given: Lorenzo
-  - family: Marino
-    given: Roberto
-  - family: Fazio
-    given: Maria
-  - family: Villari
-    given: Massimo
-  container-title: UCC 2023 conference
-  doi: Accepted
-  id: EDGEmergency
-  issued: 2023
-  publisher: ACM
-  title: "EDGEmergency: A cloud-edge platform to enable pervasive
-    computing for disaster management"
-  title-short: EDGEmergency
-  type: chapter
-- author:
-  - family: Marino
-    given: Roberto
-  - family: Marino
-    given: Antonino
-  - family: Domenico
-    given: Domenica De
-  - family: Carnevale
-    given: Lorenzo
-  - family: Gambito
-    given: Mark Adrian
-  - family: Villari
-    given: Massimo
-  container-title: IEEE ISCC 2024 conference
-  doi: Accepted
-  id: DataDrivenSHM
-  issued: 2024-05
-  publisher: IEE
-  title: A low cost platform for distributed data-driven structural
-    health monitoring
-  type: chapter
+Title: "Papers"
 ---
 
+Carnevale, Lorenzo, Antonio Filograna, Francesco Arigliano, Roberto
+Marino, Armando Ruggeri, and Maria Fazio. 2023. “Supporting the Natural
+Disaster Management Distributing Federated Intelligence over the
+Cloud-Edge Continuum: The TEMA Architecture.” In *Proceedings of the
+IEEE/ACM 10th International Conference on Big Data Computing,
+Applications and Technologies*, 1–6. Taormina (Messina) Italy: ACM.
+<https://doi.org/10.1145/3632366.3632371>.
+
+Colosi, Mario, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria
+Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform
+to Enable Pervasive Computing for Disaster Management.” In *Proceedings
+of the IEEE/ACM 10th International Conference on Big Data Computing,
+Applications and Technologies*, 1–4. Taormina (Messina) Italy: ACM.
+<https://doi.org/10.1145/3632366.3632372>.
+
+Marino, Roberto, Lorenzo Carnevale, Maria Fazio, and Massimo Villari.
+2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In
+*Proceedings of the IEEE/ACM 10th International Conference on Big Data
+Computing, Applications and Technologies*, 1–6. Taormina (Messina)
+Italy: ACM. <https://doi.org/10.1145/3632366.3632373>.
+
+Marino, Roberto, Lorenzo Carnevale, and Massimo Villari. 2023. “When
+Robotics Meets Distributed Learning: The Federated Learning Robotic
+Network Framework.” In *2023 IEEE Symposium on Computers and
+Communications (ISCC)*, 1–6. Gammarth, Tunisia: IEEE.
+<https://doi.org/10.1109/ISCC58397.2023.10218022>.
+
+Marino, Roberto, Antonino Marino, Domenica De Domenico, Lorenzo
+Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost
+Platform for Distributed Data-Driven Structural Health Monitoring.” In
+*2024 IEEE Symposium on Computers and Communications (ISCC)*, 1–6.
+Paris, France: IEEE. <https://doi.org/10.1109/ISCC61673.2024.10733602>.
+
+Marino, Roberto, Antonino Marino, Domenica De Domenico, Lorenzo
+Carnevale, and Salvatore Magazù. 2023. “OpenSEM: An Open Framework for
+Data-Driven Structural and Environmental Monitoring.” In *Proceedings of
+the IEEE/ACM 10th International Conference on Big Data Computing,
+Applications and Technologies*, 1–2. Taormina (Messina) Italy: ACM.
+<https://doi.org/10.1145/3632366.3632377>.
+
+Marino, Roberto, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato
+Zaccaria. 2016. “A Minimalistic Quadrotor Navigation Strategy for Indoor
+Multi-Floor Scenarios.” In *Intelligent Autonomous Systems 13*, edited
+by Emanuele Menegatti, Nathan Michael, Karsten Berns, and Hiroaki
+Yamaguchi, 302:1561–70. Cham: Springer International Publishing.
+<https://doi.org/10.1007/978-3-319-08338-4_112>.
