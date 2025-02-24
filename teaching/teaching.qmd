@@ -28,7 +28,7 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica
 ### Testi Consigliati
 
 
-1. Ross Kurose, "Reti di Calcolatori ed Internet. Un approccio Top-down" Pearson, 8th edition [english version on-line](https://www.ucg.ac.me/skladiste/blog_44233/objava_64433/fajlovi/Computer%20Networking%20_%20A%20Top%20Down%20Approach,%207th,%20converted.pdf)
+1. Ross Kurose, "Reti di Calcolatori ed Internet. Un approccio Top-down" Pearson, 8th edition, [english version on-line](https://www.ucg.ac.me/skladiste/blog_44233/objava_64433/fajlovi/Computer%20Networking%20_%20A%20Top%20Down%20Approach,%207th,%20converted.pdf)
 
 2. Peter L. Lordal, "An Introduction to Computer Networks", [on-line](https://intronetworks.cs.luc.edu/current2/html/index.html)
 

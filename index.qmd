@@ -43,7 +43,7 @@ I'm a roboticist working at the intersection of AI/ML, control theory and distri
 
 I attended the [University of Messina](https://www.unime.it) for my undergraduate studies and returned there for my Research Fellowship.
 
-I also hold degrees from [University of Genova](https://www.unige.it) and [Ecole Centrale de Nantes](https://www.ec-nantes.fr) where I studied under an ERASMUS Mundus scholarship program and I completed my PhD.
+I also hold degrees from [University of Genova](https://www.unige.it) and [Ecole Centrale de Nantes](https://www.ec-nantes.fr) where I studied under an [ERASMUS Mundus scholarship program (EMARO)](https://master-emaro.ec-nantes.fr/) and I completed my PhD.
 
 I'm currently a Research Fellow at [Future Computing Research Laboratory](https://fcrlab.unime.it) of University of Messina under the supervision of [prof. Massimo Villari](https://scholar.google.com/citations?user=LogifUkAAAAJ&hl=it&oi=ao), where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling.
 
