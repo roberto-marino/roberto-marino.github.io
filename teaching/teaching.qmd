@@ -19,7 +19,9 @@ Il corso, diviso in tre parti, si propone di:
 | Data             | Lezione                          | Materiale                                | Riferimenti   |
 |------------------|----------------------------------|------------------------------------------|---------------|
 | 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
-| 26 Febbraio 2025 | Stack ISO/OSI ed Introduzione ai Socket | [Slides](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Piccardi Ch.6,13,14 |
+| 26 Febbraio 2025 | Stack ISO/OSI ed Introduzione ai Socket | [<span style="color:red;">Slides</span>](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Piccardi Ch.6,13,14 |
+
+
 : Course Schedule {.striped}
 
 ### Prerequisiti
