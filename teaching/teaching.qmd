@@ -37,7 +37,7 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica
 
 2. Peter L. Lordal, "An Introduction to Computer Networks", [on-line](https://intronetworks.cs.luc.edu/current2/html/index.html)
 
-3. Simone Piccardi, "GAPIL: Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/)
+3. Simone Piccardi, "GAPIL: Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/fileshare/gapil.pdf)
 
 4. Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
 
