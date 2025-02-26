@@ -50,7 +50,7 @@ I'm currently a Research Fellow at [Future Computing Research Laboratory](https:
 
 ## Key research interest
 
-* **Robotics and Autonomous Systems:** aerial robot modeling, data-driven control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)
+* **Robotics and Autonomous Systems:** Aerial Robot Modeling, Data-Driven Control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)
 
 * **Scientific Machine Learning:** Physics-Informed Neural Network, Neural Stochastic Differential Equations
 

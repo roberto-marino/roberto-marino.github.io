@@ -26,7 +26,7 @@ Il corso, diviso in tre parti, si propone di:
 
 ### Prerequisiti
 - Concetti di Reti di Calcolatori: Tcp/Ip, Routing
-- Concetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads
+- Concetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads, Primitive di sincronizzazione
 - Concetti di Algoritmi: Macchine a stati finiti, Complessità Computazionale, Algoritmi su grafi ed alberi
 
 ### Modalità d'esame
