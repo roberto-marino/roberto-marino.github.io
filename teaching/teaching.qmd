@@ -18,7 +18,7 @@ Il corso, diviso in tre parti, si propone di:
 
 | Data             | Lezione                          | Materiale                                | Riferimenti   |
 |------------------|----------------------------------|------------------------------------------|---------------|
-| 25 Febbraio 2025 | Introduzione e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
+| 25 Febbraio 2025 | Introduzione al corso e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
 | 26 Febbraio 2025 | Stack ISO/OSI ed Introduzione ai Socket | [Slides](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Lordal Ch.1,2 and Piccardi Ch.13,14 |
 | 27 Febbraio 2025 | Socket Programming in Linux      | [Slides](../documents/labresid_3.pdf), [CS6](../documents/cs_socket.pdf), [<span style="color:#cc0000">HO1</span>](../documents/ho1.pdf), [server_tcp.c](../src/server_tcp.c), [client_tcp.c](../src/client_tcp.c) | Piccardi Ch.13,14 |
 
@@ -39,13 +39,17 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (<span style=
 
 2. Peter L. Lordal, "An Introduction to Computer Networks", [on-line](https://intronetworks.cs.luc.edu/current2/html/index.html)
 
-3. Simone Piccardi, "GAPIL: Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/fileshare/gapil.pdf)
+3. Richard W. Stevens, "UNIX Network Programming", Volume 1, Second Edition: Networking APIs: Sockets and XTI, Prentice Hall
 
-4. Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
+4. Richard W. Stevens, "UNIX Network Programming", Volume 2, Second Edition: Interprocess Communications, Prentice Hall
+ 
+5. Simone Piccardi, "GAPIL: Guida alla programmazione in Linux", [on-line](https://gapil.gnulinux.it/fileshare/gapil.pdf)
 
-5. Andrew S. Tanenbaum, "Sistemi Distribuiti. Principi e paradigmi", Pearson
+6. Achille Pattavina, "Internet e Reti. Fondamenti", Pearson, 3rd edition
 
-6. Francesco Bullo, Jorge Cortés, Sonia Martinez, "Distributed Control of Robotic Networks", [on-line](https://fbullo.github.io/dcrn/pdfs/DCRN-BulloCortesMartinez-10mar09.pdf)
+7. Andrew S. Tanenbaum, "Sistemi Distribuiti. Principi e paradigmi", Pearson
+
+8. Francesco Bullo, Jorge Cortés, Sonia Martinez, "Distributed Control of Robotic Networks", [on-line](https://fbullo.github.io/dcrn/pdfs/DCRN-BulloCortesMartinez-10mar09.pdf)
 
 
 
