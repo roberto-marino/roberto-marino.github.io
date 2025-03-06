@@ -23,6 +23,7 @@ Il corso, diviso in tre parti, si propone di:
 | 27 Febbraio 2025 | Socket Programming in Linux      | [Slides](../documents/labresid_3.pdf), [CS6](../documents/cs_socket.pdf), [<span style="color:#cc0000">HO1</span>](../documents/ho1.pdf), [server_tcp.c](../src/server_tcp.c), [client_tcp.c](../src/client_tcp.c) | Piccardi Ch.13,14 |
 | 4 Marzo 2025 | Socket Bloccanti e Non-Bloccanti | [Slides](../documents/labresid_4.pdf), [<span style="color:#cc0000">HO2</span>](../documents/ho2.pdf), [server_tcp_block.c](../src/server_tcp_block.c), [server_tcp_nonblock.c](../src/server_tcp_nonblock.c), [client_tcp_block.c](../src/client_tcp_block.c) | Piccardi Ch.15 |
 | 5 Marzo 2025 | I/O Multiplexing | [Slides](../documents/labresid_5.pdf), [<span style="color:#cc0000">HO3</span>](../documents/ho3.pdf), [CS7](../documents/cs7.pdf) | Piccardi Ch.10 |
+| 6 Marzo 2025 | I/O Multiplexing con epoll() | [Slides](../documents/labresid_6.pdf), [<span style="color:#cc0000">HO4</span>](../documents/ho4.pdf) | Piccardi Ch.10 |
 : Course Schedule {.striped}
 
 ### Prerequisiti
