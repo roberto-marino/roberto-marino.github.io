@@ -28,6 +28,7 @@ Il corso, diviso in tre parti, si propone di:
 : Course Schedule {.striped}
 
 ### Prerequisiti
+- Programmazione di base in Linguaggio C ([Il linguaggio C, Kernighan&Ritchie](../documents/kr.pdf))
 - Concetti di Reti di Calcolatori: Tcp/Ip, Routing
 - Concetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads, Primitive di sincronizzazione
 - Concetti di Algoritmi: Macchine a stati finiti, Complessità Computazionale, Algoritmi su grafi ed alberi
