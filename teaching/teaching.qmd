@@ -26,7 +26,7 @@ Il corso, diviso in tre parti, si propone di:
 | 6 Marzo 2025 | I/O Multiplexing con epoll() | [Slides](../documents/labresid_6.pdf), [<span style="color:#cc0000">HO4</span>](../documents/ho4.pdf) | Piccardi Ch.10 |
 | 12 Marzo 2025 | Spazio degli Indirizzi IPv4 | [Slides](../documents/labresid_7.pdf) | Lordal Ch.9 |
 | 13 Marzo 2025 | Socket Raw di Livello 3 | [Slides](../documents/labresid_8.pdf), [<span style="color:#cc0000">HO5</span>](../documents/ho5.pdf), [ICMP_raw.c](../src/ICMP_raw.c)| Piccardi Appendice B |
-| 18 Marzo 2025 | Socket Multicast | [Slides](../documentws/labresid_9.pdf),[<span style="color:#cc0000">HO6</span>](../documents/ho6.pdf),[multicast_server.c](../src/multicast_server.c) | Stevens |
+| 18 Marzo 2025 | Socket Multicast | [Slides](../documentws/labresid_9.pdf),[<span style="color:#cc0000">HO6</span>](../documents/ho6.pdf),[multicast_server.c](../src/multicast_server.c) | Stevens Vol.1 Ch.13 |
 : Course Schedule {.striped}
 
 ### Prerequisiti
