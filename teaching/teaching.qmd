@@ -30,7 +30,7 @@ Il corso, diviso in tre parti, si propone di:
 | 20 Marzo 2025 | Interfacce Virtuali | [Slides](../documents/labresid_10.pdf),[<span style="color:#cc0000">HO7</span>](../documents/ho7.pdf)| Lordal Ch.30, Mininet.org |
 | 26 Marzo 2025 | Introduzione ai Posix Thread | [Slides](../documents/labresid_11.pdf), [<span style="color:#cc0000">HO8</span>](../documents/ho8.pdf),[thread_create.c](../src/thread_create.c), [thread_param.c](../src/thread_param.c), [thread_affinity.c](../src/thread_affinity.c)| CSAPP Ch.7 |
 | 27 Marzo 2025 | Linking ed ELF file | [Slides](../documents/labresid_12.pdf) | CSAPP Ch.7 |
-| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.zip)| |
+| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
