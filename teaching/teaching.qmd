@@ -30,8 +30,8 @@ Il corso, diviso in tre parti, si propone di:
 | 20 Marzo 2025 | Interfacce Virtuali | [Slides](../documents/labresid_10.pdf),[<span style="color:#cc0000">HO7</span>](../documents/ho7.pdf)| Lordal Ch.30, Mininet.org |
 | 26 Marzo 2025 | Introduzione ai Posix Thread | [Slides](../documents/labresid_11.pdf), [<span style="color:#cc0000">HO8</span>](../documents/ho8.pdf),[thread_create.c](../src/thread_create.c), [thread_param.c](../src/thread_param.c), [thread_affinity.c](../src/thread_affinity.c)| CSAPP Ch.7 |
 | 27 Marzo 2025 | Linking ed ELF file | [Slides](../documents/labresid_12.pdf) | CSAPP Ch.7 |
-| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | |
-| 2 Aprile 2025 | Scheduling Internals | [Slides](../documents/labresid_13.pdf) | |
+| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | [Stanford Gnu Make Tutorial](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) |
+| 2 Aprile 2025 | Task Management | [Slides](../documents/labresid_13.pdf) | Love Chap.4 |
 : Course Schedule {.striped}
 
 ### Prerequisiti
@@ -62,7 +62,7 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (<span style=
 
 8. Francesco Bullo, Jorge Cortés, Sonia Martinez, "Distributed Control of Robotic Networks", [on-line](https://fbullo.github.io/dcrn/pdfs/DCRN-BulloCortesMartinez-10mar09.pdf)
 
-
+9. Robert Love, "Linux Kernel Development", Novell, Second Edition
 
 
 
