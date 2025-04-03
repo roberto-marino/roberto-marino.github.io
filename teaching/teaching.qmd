@@ -65,5 +65,7 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (<span style=
 9. Robert Love, "Linux Kernel Development", Novell, Second Edition
 
 
+### Link Utili
 
+1. x86 and amd64 Instruction Reference, [on-line](https://www.felixcloutier.com/x86/)
 
