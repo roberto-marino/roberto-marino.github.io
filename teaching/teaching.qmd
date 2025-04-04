@@ -69,4 +69,5 @@ Report delle esercitazioni + Progetto Finale + Presentazione Orale (<span style=
 ### Link Utili
 
 1. x86 and amd64 Instruction Reference, [on-line](https://www.felixcloutier.com/x86/)
+2. Linux Kernel Source Navigator, [on-line](https://elixir.bootlin.com/linux/v6.13.7/source)
 
