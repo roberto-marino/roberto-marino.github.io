@@ -16,24 +16,24 @@ Il corso, diviso in tre parti, si propone di:
 
 * Parte III: Introdurre le tematiche della **programmazione distributa** attraverso il modello ad Automi a Stati Finiti
 
-| Data             | Lezione                          | Materiale                                | Riferimenti   |
-|------------------|----------------------------------|------------------------------------------|---------------|
-| 25 Febbraio 2025 | Introduzione al corso e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
-| 26 Febbraio 2025 | Stack ISO/OSI ed Introduzione ai Socket | [Slides](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Lordal Ch.1,2 and Piccardi Ch.13,14 |
-| 27 Febbraio 2025 | Socket Programming in Linux      | [Slides](../documents/labresid_3.pdf), [CS6](../documents/cs_socket.pdf), [<span style="color:#cc0000">HO1</span>](../documents/ho1.pdf), [server_tcp.c](../src/server_tcp.c), [client_tcp.c](../src/client_tcp.c) | Piccardi Ch.13,14 |
-| 4 Marzo 2025 | Socket Bloccanti e Non-Bloccanti | [Slides](../documents/labresid_4.pdf), [<span style="color:#cc0000">HO2</span>](../documents/ho2.pdf), [server_tcp_block.c](../src/server_tcp_block.c), [server_tcp_nonblock.c](../src/server_tcp_nonblock.c), [client_tcp_block.c](../src/client_tcp_block.c) | Piccardi Ch.15 |
-| 5 Marzo 2025 | I/O Multiplexing | [Slides](../documents/labresid_5.pdf), [<span style="color:#cc0000">HO3</span>](../documents/ho3.pdf), [CS7](../documents/cs7.pdf) | Piccardi Ch.10 |
-| 6 Marzo 2025 | I/O Multiplexing con epoll() | [Slides](../documents/labresid_6.pdf), [<span style="color:#cc0000">HO4</span>](../documents/ho4.pdf) | Piccardi Ch.10 |
-| 12 Marzo 2025 | Spazio degli Indirizzi IPv4 | [Slides](../documents/labresid_7.pdf) | Lordal Ch.9 |
-| 13 Marzo 2025 | Socket Raw di Livello 3 | [Slides](../documents/labresid_8.pdf), [<span style="color:#cc0000">HO5</span>](../documents/ho5.pdf), [ICMP_raw.c](../src/ICMP_raw.c)| Piccardi Appendice B |
-| 18 Marzo 2025 | Socket Multicast | [Slides](../documents/labresid_9.pdf),[<span style="color:#cc0000">HO6</span>](../documents/ho6.pdf),[multicast_server.c](../src/multicast_server.c) | Stevens Vol.1 Ch.13 |
-| 20 Marzo 2025 | Interfacce Virtuali | [Slides](../documents/labresid_10.pdf),[<span style="color:#cc0000">HO7</span>](../documents/ho7.pdf)| Lordal Ch.30, Mininet.org |
-| 26 Marzo 2025 | Introduzione ai Posix Thread | [Slides](../documents/labresid_11.pdf), [<span style="color:#cc0000">HO8</span>](../documents/ho8.pdf),[thread_create.c](../src/thread_create.c), [thread_param.c](../src/thread_param.c), [thread_affinity.c](../src/thread_affinity.c)| CSAPP Ch.7 |
-| 27 Marzo 2025 | Linking ed ELF file | [Slides](../documents/labresid_12.pdf) | CSAPP Ch.7 |
-| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | [Stanford Gnu Make Tutorial](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) |
-| 2 Aprile 2025 | Task Management | [Slides](../documents/labresid_13.pdf) | Love Chap.4 |
-| 3 Aprile 2025 | Grafi di precedenza | [<span style="color:#cc0000">HO10</span>](../documents/ho10.pdf) | |
-| 9 Aprile 2025 | Task Synchronization | [Slides](../documents/labresid_14.pdf), [<span style="color:#cc0000">HO11</span>](../documents/ho11.pdf), [CS8](../documents/cs8.pdf) | Love Chap.7 and 8 |
+|#| Data             | Lezione                          | Materiale                                | Riferimenti   |
+|-|------------------|----------------------------------|------------------------------------------|---------------|
+|1| 25 Febbraio 2025 | Introduzione al corso e Packet Analysis   | [Slides](../documents/labresid_1.pdf), [CS1](../documents/cs1.pdf), [CS2](../documents/cs2.pdf) | Kurose Ch.1, Lordal Ch.1              |
+|2| 26 Febbraio 2025 | Stack ISO/OSI ed Introduzione ai Socket | [Slides](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Lordal Ch.1,2 and Piccardi Ch.13,14 |
+|3| 27 Febbraio 2025 | Socket Programming in Linux      | [Slides](../documents/labresid_3.pdf), [CS6](../documents/cs_socket.pdf), [<span style="color:#cc0000">HO1</span>](../documents/ho1.pdf), [server_tcp.c](../src/server_tcp.c), [client_tcp.c](../src/client_tcp.c) | Piccardi Ch.13,14 |
+|4| 4 Marzo 2025 | Socket Bloccanti e Non-Bloccanti | [Slides](../documents/labresid_4.pdf), [<span style="color:#cc0000">HO2</span>](../documents/ho2.pdf), [server_tcp_block.c](../src/server_tcp_block.c), [server_tcp_nonblock.c](../src/server_tcp_nonblock.c), [client_tcp_block.c](../src/client_tcp_block.c) | Piccardi Ch.15 |
+|5| 5 Marzo 2025 | I/O Multiplexing | [Slides](../documents/labresid_5.pdf), [<span style="color:#cc0000">HO3</span>](../documents/ho3.pdf), [CS7](../documents/cs7.pdf) | Piccardi Ch.10 |
+|6| 6 Marzo 2025 | I/O Multiplexing con epoll() | [Slides](../documents/labresid_6.pdf), [<span style="color:#cc0000">HO4</span>](../documents/ho4.pdf) | Piccardi Ch.10 |
+|7| 12 Marzo 2025 | Spazio degli Indirizzi IPv4 | [Slides](../documents/labresid_7.pdf) | Lordal Ch.9 |
+|8| 13 Marzo 2025 | Socket Raw di Livello 3 | [Slides](../documents/labresid_8.pdf), [<span style="color:#cc0000">HO5</span>](../documents/ho5.pdf), [ICMP_raw.c](../src/ICMP_raw.c)| Piccardi Appendice B |
+|9| 18 Marzo 2025 | Socket Multicast | [Slides](../documents/labresid_9.pdf),[<span style="color:#cc0000">HO6</span>](../documents/ho6.pdf),[multicast_server.c](../src/multicast_server.c) | Stevens Vol.1 Ch.13 |
+|10| 20 Marzo 2025 | Interfacce Virtuali | [Slides](../documents/labresid_10.pdf),[<span style="color:#cc0000">HO7</span>](../documents/ho7.pdf)| Lordal Ch.30, Mininet.org |
+|11| 26 Marzo 2025 | Introduzione ai Posix Thread | [Slides](../documents/labresid_11.pdf), [<span style="color:#cc0000">HO8</span>](../documents/ho8.pdf),[thread_create.c](../src/thread_create.c), [thread_param.c](../src/thread_param.c), [thread_affinity.c](../src/thread_affinity.c)| CSAPP Ch.7 |
+|12| 27 Marzo 2025 | Linking ed ELF file | [Slides](../documents/labresid_12.pdf) | CSAPP Ch.7 |
+|13| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | [Stanford Gnu Make Tutorial](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) |
+|14| 2 Aprile 2025 | Task Management | [Slides](../documents/labresid_13.pdf) | Love Chap.4 |
+|15| 3 Aprile 2025 | Grafi di precedenza | [<span style="color:#cc0000">HO10</span>](../documents/ho10.pdf) | |
+|16| 9 Aprile 2025 | Task Synchronization | [Slides](../documents/labresid_14.pdf), [<span style="color:#cc0000">HO11</span>](../documents/ho11.pdf), [CS8](../documents/cs8.pdf) | Love Chap.7 and 8 |
 : Course Schedule {.striped}
 
 ### Prerequisiti
