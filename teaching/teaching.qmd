@@ -35,7 +35,7 @@ Il corso, diviso in tre parti, si propone di:
 |15| 3 Aprile 2025 | Grafi di precedenza | [<span style="color:#cc0000">HO10</span>](../documents/ho10.pdf) | |
 |16| 9 Aprile 2025 | Task Synchronization | [Slides](../documents/labresid_14.pdf), [<span style="color:#cc0000">HO11</span>](../documents/ho11.pdf), [CS8](../documents/cs8.pdf) | Love Chap.7 and 8 |
 |17| 10 Aprile 2025 | Semafori | [<span style="color:#cc0000">HO12</span>](../documents/ho12.pdf) | |
-|18| 16 Aprile 2025 | | | |
+|18| 16 Aprile 2025 | Condition Variables | [span style="color:#cc0000">HO13</span> | |
 |19| 23 Aprile 2025 | | | |
 |20| 24 Aprile 2025 | | | |
 |21| 29 Aprile 2025 | | | |
