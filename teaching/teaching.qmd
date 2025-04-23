@@ -36,7 +36,7 @@ Il corso, diviso in tre parti, si propone di:
 |16| 9 Aprile 2025 | Task Synchronization | [Slides](../documents/labresid_14.pdf), [<span style="color:#cc0000">HO11</span>](../documents/ho11.pdf), [CS8](../documents/cs8.pdf) | Love Chap.7 and 8 |
 |17| 10 Aprile 2025 | Semafori | [<span style="color:#cc0000">HO12</span>](../documents/ho12.pdf) | |
 |18| 16 Aprile 2025 | Condition Variables | [<span style="color:#cc0000">HO13</span>](../documents/ho13.pdf) | |
-|19| 23 Aprile 2025 | | | |
+|19| 23 Aprile 2025 | MidTerm: Server TCP Multithread| [<span style="color:#cc0000">HO14</span>](../documents/ho14.pdf) | [Git For Dummies](https://rogerdudler.github.io/git-guide/), [Beamer Presentations Tutorial](https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_1)%E2%80%94Getting_Started)|
 |20| 24 Aprile 2025 | | | |
 |21| 29 Aprile 2025 | | | |
 |22| 30 Aprile 2025 | | | |
