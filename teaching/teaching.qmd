@@ -32,7 +32,7 @@ Il corso, diviso in tre parti, si propone di:
 |12| 27 Marzo 2025 | Linking ed ELF file | [Slides](../documents/labresid_12.pdf) | CSAPP Ch.7 |
 |13| 1 Aprile 2025 | Compilazione Modulare | [<span style="color:#cc0000">HO9</span>](../documents/ho9.pdf), [ho9.zip](../src/ho9.zip) | [Stanford Gnu Make Tutorial](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) |
 |14| 2 Aprile 2025 | Task Management | [Slides](../documents/labresid_13.pdf) | Love Chap.4 |
-|15| 3 Aprile 2025 | Grafi di precedenza | [<span style="color:#cc0000">HO10</span>](../documents/ho10.pdf) | |
+|15| 3 Aprile 2025 | Grafi di precedenza | [<span style="color:#cc0000">HO10</span>](../documents/ho10.pdf) | [Slides UniBo Pag.17](http://www.lia.deis.unibo.it/Courses/som1213/materiale/03.programmazione%20concorrente.pdf) |
 |16| 9 Aprile 2025 | Task Synchronization | [Slides](../documents/labresid_14.pdf), [<span style="color:#cc0000">HO11</span>](../documents/ho11.pdf), [CS8](../documents/cs8.pdf) | Love Chap.7 and 8 |
 |17| 10 Aprile 2025 | Semafori | [<span style="color:#cc0000">HO12</span>](../documents/ho12.pdf) | Vedi Slide Lezione 16 |
 |18| 16 Aprile 2025 | Condition Variables | [<span style="color:#cc0000">HO13</span>](../documents/ho13.pdf) | Vedi Slide Lezione 16 |
