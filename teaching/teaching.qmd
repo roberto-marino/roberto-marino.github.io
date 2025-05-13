@@ -38,15 +38,10 @@ Il corso, diviso in tre parti, si propone di:
 |18| 16 Aprile 2025 | Condition Variables | [<span style="color:#cc0000">HO13</span>](../documents/ho13.pdf) | Vedi Slide Lezione 16 |
 |19| 23 Aprile 2025 | MidTerm: Server TCP Multithread| [<span style="color:#cc0000">HO14</span>](../documents/ho14.pdf) | [Git For Dummies](https://rogerdudler.github.io/git-guide/), [Beamer Presentations Tutorial](https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_1)%E2%80%94Getting_Started)|
 |20| 24 Aprile 2025 | MidTerm Part II | Vedi 23 Aprile | |
-|21| 29 Aprile 2025 | | | |
-|22| 30 Aprile 2025 | | | |
-|23| 6 Maggio 2025 | | | |
-|24| 7 Maggio 2025 | | | |
-|25| 8 Maggio 2025 | | | |
-|26| 13 Maggio 2025 | | | |
-|27| 14 Maggio 2025 | | | |
-|28| 15 Maggio 2025 | | | |
-|29| 20 Maggio 2025 | | | |
+|21| 13 Maggio 2025 | Introduzione ai Sistemi Distribuiti | [Slides](../documents/labresid_15.pdf) [Parallel Reduction](../documents/Parallel_Reduction.pdf) |[parallel_reduction.py](../src/parallel_reduction.py) |
+|22| 14 Maggio 2025 | | | |
+|23| 15 Maggio 2025 | | | |
+|24| 20 Maggio 2025 | | | |
 |30| 21 Maggio 2025 | <span style="color:#cc0000">Recap corso ed Assegnazione Progetti</span> | | |
 : Course Schedule {.striped}
 
