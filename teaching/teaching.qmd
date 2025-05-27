@@ -42,7 +42,7 @@ Il corso, diviso in tre parti, si propone di:
 |22| 14 Maggio 2025 | Introduzione agli Algoritmi Distribuiti, Flooding | [Slides](../documents/labresid_16.pdf), [CS9](../documents/cs9.pdf), [<span style="color:#cc0000">HO15</span>](../documents/ho15.pdf) | Bullo Ch.1 |
 |23| 15 Maggio 2025 | Leader Election | [Slides](../documents/labresid_17.pdf), [<span style="color:#cc0000">HO16</span>](../documents/ho16.pdf) | Bullo Ch.1 |
 |24| 20 Maggio 2025 | Cammini Minimi | [Slides](../documents/labresid_18.pdf), [<span style="color:#cc0000">HO17</span>](../documents/ho17.pdf) | |
-|25| 21 Maggio 2025 | | | |
+|25| 21 Maggio 2025 | Map Reduce | [Slides](../documents/labresid_19.pdf), [<span style="color:#cc0000">HO18</span>](../documents/ho18.pdf) | |
 |26| 22 Maggio 2025 | | | |
 |27| 27 Maggio 2025 | | | |
 |28| 28 Maggio 2025 | | | |
