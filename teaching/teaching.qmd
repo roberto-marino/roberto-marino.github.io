@@ -44,7 +44,7 @@ Il corso, diviso in tre parti, si propone di:
 |24| 20 Maggio 2025 | Cammini Minimi | [Slides](../documents/labresid_18.pdf), [<span style="color:#cc0000">HO17</span>](../documents/ho17.pdf) | Bullo Ch.1 |
 |25| 27 Maggio 2025 | Map Reduce | [Slides](../documents/labresid_19.pdf), [<span style="color:#cc0000">HO18</span>](../documents/ho18.pdf) | Bullo Ch.1 |
 |26| 28 Maggio 2025 | Federated Learning | [Notes](../documents/FLnotes.pdf), [<span style="color:#cc0000">HO19</span>](../documents/ho19.pdf) | [McMahan](../documents/FLpapers.pdf) |
-|27| 30 Maggio 2025 | <span style="color:#cc0000">Recap corso ed Assegnazione Progetti</span> | | |
+|27| 30 Maggio 2025 | <span style="color:#cc0000">Recap corso ed Assegnazione Progetti</span> | [Lista Progetti di Fine Corso](../documents/Progetti2425.pdf) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
