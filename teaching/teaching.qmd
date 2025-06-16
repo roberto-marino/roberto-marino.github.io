@@ -1,6 +1,9 @@
 ---
 title: "Teaching"
 ---
+# Computational Modeling for Robotics and Human Computer Interaction
+
+Il corso della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecizione.
 
 # Laboratorio di Reti e Sistemi Distributi 
 
