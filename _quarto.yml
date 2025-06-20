@@ -17,6 +17,12 @@ website:
         text: Papers
       - href: teaching/teaching.qmd
         text: Teaching
+      - href: theses/theses.qmd
+        text: Theses
+      - href: activities/activities.qmd
+        text: Activities
+      - href: projects/projects.qmd
+        text: Projects
   page-footer:
     left: "(c) Roberto Marino, 2025-(+inf)"
   twitter-card: true

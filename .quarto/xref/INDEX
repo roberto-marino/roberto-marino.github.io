@@ -13,5 +13,14 @@
   },
   "teaching/teaching.qmd": {
     "teaching.html": "9a6fe7eb"
+  },
+  "theses/theses.qmd": {
+    "theses.html": "81a97cbe"
+  },
+  "projects/projects.qmd": {
+    "projects.html": "b12b1705"
+  },
+  "activities/activities.qmd": {
+    "activities.html": "cec67f08"
   }
 }
