@@ -1,0 +1,14 @@
+---
+title: "Theses Supervision"
+---
+
+# Past Theses:
+
+1. Emanuele Ribecco: "Apprendimento federato per la classificazione di immagini su dati IID e non-IID", (B.Sc. Computer Science)
+2. Davide Mento: "Metodologie distribuite per la classificazione di grandi set di dati", (B.Sc. Computer Science)
+
+
+# Present Theses:
+
+3. Manuel Rosario Sciuto
+4. Mattia Musarra Tubbi
