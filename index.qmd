@@ -39,7 +39,7 @@ comments: false
 
 ## Bio
 
-I'm a roboticist working at the intersection of AI/ML, control theory and distributed systems.
+I'm a computational roboticist working at the intersection of AI/ML, control theory and distributed systems.
 
 I attended the [University of Messina](https://www.unime.it) for my undergraduate studies and came back there for my Research Fellowship.
 
