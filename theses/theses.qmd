@@ -13,3 +13,10 @@ title: "Theses Supervision"
 3. **Manuel Rosario Sciuto**
 4. **Mattia Musarra Tubbi**
 5. **Adel Shatani**
+
+## Available Thesis Topics
+
+1. Data-Driven OS Scheduling control through eBPF and PyTorch
+2. Multi-Agent Reinforcement Learning (MARL) in MuJoCo
+
+**Note.** Feel free to contact me by email to propose your thesis idea.
