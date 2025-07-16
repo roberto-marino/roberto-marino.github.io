@@ -5,62 +5,56 @@ title: "Teaching"
 
 Il corso della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecizione.
 
-# Computational Modeling for Robotics and Human Computer Interaction
-
-**Autore:** Roberto Marino, PhD [1]
-**Data:** Marzo 2025 [1]
 
 ## 1 Introduzione
 
-Il corso ha una **durata di 30 ore** e vale **3 CFU** [1].
-Si propone di fornire agli studenti gli **strumenti matematici** necessari per la **modellazione cinematica e dinamica** delle tipologie di robot più comuni, come i **manipolatori robotici seriali**, i **car-like-robot** e i **multi-rotori** [1].
-Inoltre, mira a far comprendere gli **algoritmi di funzionamento dei moderni visori per la realtà virtuale**, inclusi **Visual-Inertial Odometry** e **SLAM** [1].
+Il corso ha una **durata di 30 ore** e vale **3 CFU** .
+Si propone di fornire agli studenti gli **strumenti matematici** necessari per la **modellazione cinematica e dinamica** delle tipologie di robot più comuni, come i **manipolatori robotici seriali**, i **car-like-robot** e i **multi-rotori**.
+Inoltre, mira a far comprendere gli **algoritmi di funzionamento dei moderni visori per la realtà virtuale**, inclusi **Visual-Inertial Odometry** e **SLAM**.
 
 ## 2 Programma del corso
 
-*(Il programma può subire lievi variazioni [2])*
-
 ### 2.1 Modellazione dei manipolatori seriali (10 ore)
 
-1.  **Introduzione, Concetti Generali**: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw [3].
-2.  **Modello Geometrico diretto/inverso** di un manipolatore seriale [3].
-3.  **Modello Cinematico diretto/inverso** di un manipolatore seriale [3].
-4.  **Modello Dinamico diretto/inverso** di un manipolatore seriale [3].
-5.  Cenni sul **controllo dei manipolatori seriali** [3].
+1.  **Introduzione, Concetti Generali**: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw.
+2.  **Modello Geometrico diretto/inverso** di un manipolatore seriale.
+3.  **Modello Cinematico diretto/inverso** di un manipolatore seriale.
+4.  **Modello Dinamico diretto/inverso** di un manipolatore seriale.
+5.  Cenni sul **controllo dei manipolatori seriali**.
 
 ### 2.2 Modellazione dei robot mobili (10 ore)
 
-1.  **Modellazione nello spazio degli stati** [3].
-2.  **Modellazione dei robot mobili su ruote** [2].
-3.  **Modellazione dei multirotori** (quadrirotore, esarotori) [2].
-4.  **Pianificazione delle traiettorie** [2].
-5.  Cenni di **inseguimento delle traiettorie** [2].
+1.  **Modellazione nello spazio degli stati**.
+2.  **Modellazione dei robot mobili su ruote**.
+3.  **Modellazione dei multirotori** (quadrirotore, esarotori).
+4.  **Pianificazione delle traiettorie**.
+5.  Cenni di **inseguimento delle traiettorie**.
 
 ### 2.3 Modellazione matematica per la realtà virtuale (10 ore)
 
-1.  **Introduzione alla Sensor Fusion**: Kalman Filtering [2].
-2.  **Modelli ottici per la visione artificiale** [2].
-3.  **Odometria Visuale** [2].
-4.  **RANSAC**: RANdom SAmple Consensus [2].
-5.  **SLAM**: Simultaneous Localization and Mapping [2].
+1.  **Introduzione alla Sensor Fusion**: Kalman Filtering.
+2.  **Modelli ottici per la visione artificiale**.
+3.  **Odometria Visuale**.
+4.  **RANSAC**: RANdom SAmple Consensus.
+5.  **SLAM**: Simultaneous Localization and Mapping.
 
 ## 3 Prerequisiti
 
-Sono richiesti **elementi di Algebra Lineare** ed **elementi di programmazione in linguaggio Python** [2].
+Sono richiesti **elementi di Algebra Lineare** ed **elementi di programmazione in linguaggio Python**.
 
 ## 4 Modalità di erogazione
 
-Il corso prevede **lezioni frontali** ed **esercitazioni simulative al computer** [4].
+Il corso prevede **lezioni frontali** ed **esercitazioni simulative al computer**.
 
 ## 5 Conseguimento dei crediti formativi
 
-Oltre alla **frequenza obbligatoria**, è previsto un **test finale** per il conseguimento dei CFU [4].
+Oltre alla **frequenza obbligatoria**, è previsto un **test finale** per il conseguimento dei CFU.
 
 ## 6 Bibliografia
 
-*   Wisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science [4]
-*   Siciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill [4]
-*   Roland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press [4]
+*   Wisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science
+*   Siciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill
+*   Roland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press
 
 
 # Laboratorio di Reti e Sistemi Distributi 

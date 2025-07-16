@@ -4,49 +4,49 @@
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Il corso della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecizione."
+    "text": "Il corso della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecizione.\n\n\nIl corso ha una durata di 30 ore e vale 3 CFU . Si propone di fornire agli studenti gli strumenti matematici necessari per la modellazione cinematica e dinamica delle tipologie di robot più comuni, come i manipolatori robotici seriali, i car-like-robot e i multi-rotori. Inoltre, mira a far comprendere gli algoritmi di funzionamento dei moderni visori per la realtà virtuale, inclusi Visual-Inertial Odometry e SLAM.\n\n\n\n\n\n\nIntroduzione, Concetti Generali: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw.\nModello Geometrico diretto/inverso di un manipolatore seriale.\nModello Cinematico diretto/inverso di un manipolatore seriale.\nModello Dinamico diretto/inverso di un manipolatore seriale.\nCenni sul controllo dei manipolatori seriali.\n\n\n\n\n\nModellazione nello spazio degli stati.\nModellazione dei robot mobili su ruote.\nModellazione dei multirotori (quadrirotore, esarotori).\nPianificazione delle traiettorie.\nCenni di inseguimento delle traiettorie.\n\n\n\n\n\nIntroduzione alla Sensor Fusion: Kalman Filtering.\nModelli ottici per la visione artificiale.\nOdometria Visuale.\nRANSAC: RANdom SAmple Consensus.\nSLAM: Simultaneous Localization and Mapping.\n\n\n\n\n\nSono richiesti elementi di Algebra Lineare ed elementi di programmazione in linguaggio Python.\n\n\n\nIl corso prevede lezioni frontali ed esercitazioni simulative al computer.\n\n\n\nOltre alla frequenza obbligatoria, è previsto un test finale per il conseguimento dei CFU.\n\n\n\n\nWisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science\nSiciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill\nRoland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press"
   },
   {
     "objectID": "teaching/teaching.html#introduzione",
     "href": "teaching/teaching.html#introduzione",
     "title": "Teaching",
-    "section": "1 Introduzione",
-    "text": "1 Introduzione\nIl corso ha una durata di 30 ore e vale 3 CFU [1]. Si propone di fornire agli studenti gli strumenti matematici necessari per la modellazione cinematica e dinamica delle tipologie di robot più comuni, come i manipolatori robotici seriali, i car-like-robot e i multi-rotori [1]. Inoltre, mira a far comprendere gli algoritmi di funzionamento dei moderni visori per la realtà virtuale, inclusi Visual-Inertial Odometry e SLAM [1]."
+    "section": "",
+    "text": "Il corso ha una durata di 30 ore e vale 3 CFU . Si propone di fornire agli studenti gli strumenti matematici necessari per la modellazione cinematica e dinamica delle tipologie di robot più comuni, come i manipolatori robotici seriali, i car-like-robot e i multi-rotori. Inoltre, mira a far comprendere gli algoritmi di funzionamento dei moderni visori per la realtà virtuale, inclusi Visual-Inertial Odometry e SLAM."
   },
   {
     "objectID": "teaching/teaching.html#programma-del-corso",
     "href": "teaching/teaching.html#programma-del-corso",
     "title": "Teaching",
-    "section": "2 Programma del corso",
-    "text": "2 Programma del corso\n(Il programma può subire lievi variazioni [2])\n\n2.1 Modellazione dei manipolatori seriali (10 ore)\n\nIntroduzione, Concetti Generali: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw [3].\nModello Geometrico diretto/inverso di un manipolatore seriale [3].\nModello Cinematico diretto/inverso di un manipolatore seriale [3].\nModello Dinamico diretto/inverso di un manipolatore seriale [3].\nCenni sul controllo dei manipolatori seriali [3].\n\n\n\n2.2 Modellazione dei robot mobili (10 ore)\n\nModellazione nello spazio degli stati [3].\nModellazione dei robot mobili su ruote [2].\nModellazione dei multirotori (quadrirotore, esarotori) [2].\nPianificazione delle traiettorie [2].\nCenni di inseguimento delle traiettorie [2].\n\n\n\n2.3 Modellazione matematica per la realtà virtuale (10 ore)\n\nIntroduzione alla Sensor Fusion: Kalman Filtering [2].\nModelli ottici per la visione artificiale [2].\nOdometria Visuale [2].\nRANSAC: RANdom SAmple Consensus [2].\nSLAM: Simultaneous Localization and Mapping [2]."
+    "section": "",
+    "text": "Introduzione, Concetti Generali: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw.\nModello Geometrico diretto/inverso di un manipolatore seriale.\nModello Cinematico diretto/inverso di un manipolatore seriale.\nModello Dinamico diretto/inverso di un manipolatore seriale.\nCenni sul controllo dei manipolatori seriali.\n\n\n\n\n\nModellazione nello spazio degli stati.\nModellazione dei robot mobili su ruote.\nModellazione dei multirotori (quadrirotore, esarotori).\nPianificazione delle traiettorie.\nCenni di inseguimento delle traiettorie.\n\n\n\n\n\nIntroduzione alla Sensor Fusion: Kalman Filtering.\nModelli ottici per la visione artificiale.\nOdometria Visuale.\nRANSAC: RANdom SAmple Consensus.\nSLAM: Simultaneous Localization and Mapping."
   },
   {
     "objectID": "teaching/teaching.html#prerequisiti",
     "href": "teaching/teaching.html#prerequisiti",
     "title": "Teaching",
-    "section": "3 Prerequisiti",
-    "text": "3 Prerequisiti\nSono richiesti elementi di Algebra Lineare ed elementi di programmazione in linguaggio Python [2]."
+    "section": "",
+    "text": "Sono richiesti elementi di Algebra Lineare ed elementi di programmazione in linguaggio Python."
   },
   {
     "objectID": "teaching/teaching.html#modalità-di-erogazione",
     "href": "teaching/teaching.html#modalità-di-erogazione",
     "title": "Teaching",
-    "section": "4 Modalità di erogazione",
-    "text": "4 Modalità di erogazione\nIl corso prevede lezioni frontali ed esercitazioni simulative al computer [4]."
+    "section": "",
+    "text": "Il corso prevede lezioni frontali ed esercitazioni simulative al computer."
   },
   {
     "objectID": "teaching/teaching.html#conseguimento-dei-crediti-formativi",
     "href": "teaching/teaching.html#conseguimento-dei-crediti-formativi",
     "title": "Teaching",
-    "section": "5 Conseguimento dei crediti formativi",
-    "text": "5 Conseguimento dei crediti formativi\nOltre alla frequenza obbligatoria, è previsto un test finale per il conseguimento dei CFU [4]."
+    "section": "",
+    "text": "Oltre alla frequenza obbligatoria, è previsto un test finale per il conseguimento dei CFU."
   },
   {
     "objectID": "teaching/teaching.html#bibliografia",
     "href": "teaching/teaching.html#bibliografia",
     "title": "Teaching",
-    "section": "6 Bibliografia",
-    "text": "6 Bibliografia\n\nWisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science [4]\nSiciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill [4]\nRoland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press [4]"
+    "section": "",
+    "text": "Wisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science\nSiciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill\nRoland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press"
   },
   {
     "objectID": "teaching/teaching.html#reti-di-calcolatori-e-sistemi-distributi-mod.b",
