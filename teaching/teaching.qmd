@@ -20,7 +20,7 @@ Il corso, diviso in tre parti, si propone di:
 |2| 5 Marzo 2026 | Stack ISO/OSI ed Introduzione ai Socket | [Slides](../documents/labresid_2.pdf), [CS3](../documents/cs3.pdf), [CS4](../documents/cs4.pdf), [CS5](../documents/cs5.pdf), [CS_wf](../documents/cs_wf.pdf) | Lordal Ch.1,2 and Piccardi Ch.13,14 |
 |3| 6 Marzo 2026 | Socket Programming in Linux      | [Slides](../documents/labresid_3.pdf), [CS6](../documents/cs_socket.pdf), [<span style="color:#cc0000">HO1</span>](../documents/ho1.pdf), [server_tcp.c](../src/server_tcp.c), [client_tcp.c](../src/client_tcp.c) | Piccardi Ch.13,14 |
 |4| 10 Marzo 2026 | TCP Fragmentation | [<span style="color:#cc0000">HO2</span>](../documents/resid26_ho2.pdf) | Piccardi Ch.15 |
-|5| 12 Marzo 2026 | Socket Raw di livello 2 | [<span style="color:#cc0000">HO2</span>](../documents/resid26_ho3.pdf), [SRC](../src/sniffer_base.c)||  
+|5| 12 Marzo 2026 | Socket Raw di livello 2 | [<span style="color:#cc0000">HO3</span>](../documents/resid26_ho3.pdf), [sniffer_base.c](../src/sniffer_base.c)||  
 : Course Schedule {.striped}
 
 ### Prerequisiti
