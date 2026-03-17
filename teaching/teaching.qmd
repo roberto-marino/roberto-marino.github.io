@@ -71,29 +71,9 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 
 # Programma del corso
 
-### Modellazione dei manipolatori seriali 
-
-1.  **Introduzione, Concetti Generali**: Gradi di libertà, Task Space, Joint Space, Singolarità. Matrici di trasformazione tra vettori, frames e screw.
-2.  **Modello Geometrico diretto/inverso** di un manipolatore seriale.
-3.  **Modello Cinematico diretto/inverso** di un manipolatore seriale.
-4.  **Modello Dinamico diretto/inverso** di un manipolatore seriale.
-5.  Cenni sul **controllo dei manipolatori seriali**.
-
-### Modellazione dei robot mobili
-
-1.  **Modellazione nello spazio degli stati**.
-2.  **Modellazione dei robot mobili su ruote**.
-3.  **Modellazione dei multirotori** (quadrirotore, esarotori).
-4.  **Pianificazione delle traiettorie**.
-5.  Cenni di **inseguimento delle traiettorie**.
-
-### Modellazione matematica per la realtà virtuale 
-
-1.  **Introduzione alla Sensor Fusion**: Kalman Filtering.
-2.  **Modelli ottici per la visione artificiale**.
-3.  **Odometria Visuale**.
-4.  **RANSAC**: RANdom SAmple Consensus.
-5.  **SLAM**: Simultaneous Localization and Mapping.
+|#| Data             | Lezione                          | Materiale                                | Riferimenti   |
+|-|------------------|----------------------------------|------------------------------------------|---------------|
+|1| 18 Marzo 2026 | Introduzione alla robotica, Trasformazioni   | [Slides 0](../documents/rob0.pdf), [Slides 1](../documents/rob1.pdf)  | Khalil, Chapt. 1-2      
 
 ## Prerequisiti
 
@@ -106,6 +86,11 @@ Il corso, teorico/simulativo, prevede **lezioni frontali** ed **esercitazioni si
 ## Conseguimento dei crediti formativi
 
 Oltre alla **frequenza obbligatoria**, è previsto un **test finale** per il conseguimento dei CFU.
+
+### Canale Telegram
+
+ComputationalRobotics@Unime URL: [t.me/ComputationalRoboticsUniME](https://t.me/ComputationalRoboticsUniME)
+
 
 ## Bibliografia
 
