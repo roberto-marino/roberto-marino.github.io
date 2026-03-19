@@ -22,8 +22,8 @@ Il corso, diviso in tre parti, si propone di:
 |4| 10 Marzo 2026 | TCP Fragmentation | [<span style="color:#cc0000">HO2</span>](../documents/resid26_ho2.pdf) | Piccardi Ch.15 |
 |5| 12 Marzo 2026 | Socket Raw di livello 2 | [<span style="color:#cc0000">HO3</span>](../documents/resid26_ho3.pdf), [sniffer_base.c](../src/sniffer_base.c)||
 |6| 13 Marzo 2026 | Socket Raw di livello 3 | [<span style="color:#cc0000">HO4</span>](../documents/resid26_ho4.pdf), [ip_sniffer_base.c](../src/ip_sniffer_base.c)||   
-|7| 19 Marzo 2026 | I/O Multiplexing con select() | [Slides](../documents/resid26_select.pdf), [<span style="color:#cc0000">HO5</span>](../documents/resid26_ho5.pdf), [server_select.c](../src/server_select.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
-|8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), [server_epoll.c](../src/server_epoll.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
+|7| 19 Marzo 2026 | I/O Multiplexing con select() | [Slides](../documents/resid26_select.pdf), [<span style="color:#cc0000">HO5</span>](../documents/resid26_ho5.pdf), [server_select.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_select.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
+|8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), ```c {{< include ../src/server_epoll.c >}} ```, [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
 : Course Schedule {.striped}
 
 ### Prerequisiti
