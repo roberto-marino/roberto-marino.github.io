@@ -37,10 +37,10 @@
 #define MAX_EVENTS  64
 #define BUFLEN      1024
 
-/* ── Funzione helper: rende un fd non bloccante ──────────────────────
+/*  Funzione helper: rende un fd non bloccante ------------------------
  * In modalita' level-triggered (default) non e' strettamente
  * obbligatorio, ma e' buona pratica con epoll.
- * ─────────────────────────────────────────────────────────────────── */
+ * --------------------------------------------------------------------*/
 static void set_nonblocking(int fd)
 {
     int flags = fcntl(fd, F_GETFL, 0);
@@ -52,7 +52,7 @@ static void set_nonblocking(int fd)
 
 int main(void)
 {
-    /* ── 1. Socket di ascolto ────────────────────────────────────── */
+    /* -- 1. Socket di ascolto ------------------------------------------*/
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (server_fd == -1) { perror("socket"); exit(1); }
 
@@ -73,11 +73,11 @@ int main(void)
     printf("=== Server epoll avviato sulla porta %d ===\n", PORT);
     printf("socket di ascolto: fd=%d\n\n", server_fd);
 
-    /* ── 2. Crea l'istanza epoll ─────────────────────────────────── */
+    /* -- 2. Crea l'istanza epoll ------------------------------------- */
     int epfd = epoll_create1(0);
     if (epfd == -1) { perror("epoll_create1"); exit(1); }
 
-    /* ── 3. Registra server_fd — UNA VOLTA SOLA ─────────────────── */
+    /* -- 3. Registra server_fd - UNA VOLTA SOLA ----------------------*/
     struct epoll_event ev;
     ev.events  = EPOLLIN;
     ev.data.fd = server_fd;
@@ -89,7 +89,7 @@ int main(void)
     printf("(testa con: nc 127.0.0.1 %d  oppure  ./test_multifd.sh 5)\n\n",
            PORT);
 
-    /* ── 4. Loop principale ──────────────────────────────────────── */
+    /* -- 4. Loop principale -------------------------------------------*/
     struct epoll_event events[MAX_EVENTS];
 
     while (1) {
@@ -111,7 +111,7 @@ int main(void)
         for (int i = 0; i < n; i++) {
             int fd = events[i].data.fd;
 
-            /* ── Evento su server_fd: nuovo client ────────────── */
+            /* -- Evento su server_fd: nuovo client -------------------*/
             if (fd == server_fd) {
                 struct sockaddr_in client_addr;
                 socklen_t addrlen = sizeof(client_addr);
@@ -143,7 +143,7 @@ int main(void)
                     perror("epoll_ctl ADD client"); close(client_fd);
                 }
 
-            /* ── Evento su client_fd: dati o disconnessione ────── */
+            /* -- Evento su client_fd: dati o disconnessione ------------------ */
             } else if (events[i].events & EPOLLIN) {
                 char buf[BUFLEN];
                 ssize_t r = recv(fd, buf, sizeof(buf) - 1, 0);
@@ -169,7 +169,7 @@ int main(void)
                            fd, buf, r);
                 }
 
-            /* ── Errore o hang-up sul fd ────────────────────────── */
+            /*  Errore o hang-up sul fd ------------------------- */
             } else if (events[i].events & (EPOLLERR | EPOLLHUP)) {
                 epoll_ctl(epfd, EPOLL_CTL_DEL, fd, NULL);
                 close(fd);

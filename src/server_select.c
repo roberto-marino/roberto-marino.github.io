@@ -33,12 +33,12 @@
 
 int main(void)
 {
-    /* ── Socket di ascolto ────────────────────────────────────────
+    /* --- Socket di ascolto -------------------------------------
      * server_fd e' il socket di ASCOLTO.
      * Serve solo a ricevere richieste di connessione dai client.
      * Non scambia mai dati applicativi.
      * Ne esiste UNO SOLO per tutto il ciclo di vita del server.
-     * ─────────────────────────────────────────────────────────── */
+     * -----------------------------------------------------------*/
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (server_fd == -1) { perror("socket"); exit(1); }
 
@@ -64,19 +64,19 @@ int main(void)
     printf("In attesa di connessioni... (testa con: nc 127.0.0.1 %d)\n\n",
            PORT);
 
-    /* ── Strutture dati per select() ─────────────────────────────
+    /* Strutture dati per select()
      * client_fds[]: rubrica dei socket di connessione attivi.
      *               -1 = slot libero.
      * max_fd:       fd piu' grande tra tutti quelli monitorati.
      *               All'inizio e' server_fd (unico fd presente).
-     * ─────────────────────────────────────────────────────────── */
+     * -----------------------------------------------------------*/
     int client_fds[MAX_CLIENTS];
     for (int i = 0; i < MAX_CLIENTS; i++)
         client_fds[i] = -1;
 
     int max_fd = server_fd; /* unico fd monitorato all'avvio */
 
-    /* ── Loop principale ─────────────────────────────────────────*/
+    /* -- Loop principale ----------------------------------------*/
     while (1) {
 
         /* Ricostruisci il set ad ogni ciclo:
@@ -100,11 +100,11 @@ int main(void)
             perror("select"); break;
         }
 
-        /* ── Evento su server_fd: nuovo client ───────────────────
+        /* -- Evento su server_fd: nuovo client ---------------------
          * accept() crea un NUOVO socket di connessione dedicato
          * a questo client. server_fd resta invariato e continua
          * ad ascoltare le prossime connessioni.
-         * ─────────────────────────────────────────────────────── */
+         * ---------------------------------------------------------*/
         if (FD_ISSET(server_fd, &read_set)) {
             struct sockaddr_in client_addr;
             socklen_t addrlen = sizeof(client_addr);
@@ -144,9 +144,9 @@ int main(void)
                 max_fd = client_fd;
         }
 
-        /* ── Evento su un client_fd: dati o disconnessione ───────
+        /* -- Evento su un client_fd: dati o disconnessione -------
          * Scorri tutti i socket di connessione e servi quelli pronti.
-         * ─────────────────────────────────────────────────────── */
+         * ---------------------------------------------------------*/
         for (int i = 0; i < MAX_CLIENTS; i++) {
             if (client_fds[i] == -1)
                 continue; /* slot vuoto */
