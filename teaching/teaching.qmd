@@ -23,7 +23,7 @@ Il corso, diviso in tre parti, si propone di:
 |5| 12 Marzo 2026 | Socket Raw di livello 2 | [<span style="color:#cc0000">HO3</span>](../documents/resid26_ho3.pdf), [sniffer_base.c](../src/sniffer_base.c)||
 |6| 13 Marzo 2026 | Socket Raw di livello 3 | [<span style="color:#cc0000">HO4</span>](../documents/resid26_ho4.pdf), [ip_sniffer_base.c](../src/ip_sniffer_base.c)||   
 |7| 19 Marzo 2026 | I/O Multiplexing con select() | [Slides](../documents/resid26_select.pdf), [<span style="color:#cc0000">HO5</span>](../documents/resid26_ho5.pdf), [server_select.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_select.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
-|8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), ,[server_epoll.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_epoll.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
+|8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), [server_epoll.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_epoll.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
 |9| 24 Marzo 2026 | Review and consolidation | | |
 : Course Schedule {.striped}
 
@@ -76,7 +76,9 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 
 |#| Data             | Lezione                          | Materiale                                | Riferimenti   |
 |-|------------------|----------------------------------|------------------------------------------|---------------|
-|1| 18 Marzo 2026 | Introduzione alla robotica, Trasformazioni   | [Slides 0](../documents/rob0.pdf), [Slides 1](../documents/rob1.pdf)  | Khalil, Chapt. 1-2      
+|1| 18 Marzo 2026 | Introduzione alla robotica, Trasformazioni   | [Slides 0](../documents/rob0.pdf), [Slides 1](../documents/rob1.pdf)  | Khalil, Chapt. 1-2 |
+|2| 24 Marzo 2026 | Recap, Rappresentazioni Angolari, Screw Theory   | [Robolib](../documents/robolib.zip), [Notebook ITA/ENG](../documents/NB2.zip)  | Khalil, Chapt. 1-2 |
+: Course Schedule {.striped}    
 
 ## Prerequisiti
 
