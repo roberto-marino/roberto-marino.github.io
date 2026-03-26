@@ -25,6 +25,7 @@ Il corso, diviso in tre parti, si propone di:
 |7| 19 Marzo 2026 | I/O Multiplexing con select() | [Slides](../documents/resid26_select.pdf), [<span style="color:#cc0000">HO5</span>](../documents/resid26_ho5.pdf), [server_select.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_select.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
 |8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), [server_epoll.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_epoll.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
 |9| 24 Marzo 2026 | Review and consolidation | | |
+|10| 24 Marzo 2026 | Spazi di Indirizzamento IP | [Slides](../documents/resid26_indirizzamento.pdf),[CS_iptools](../documents/cs_iptools.pdf),[CS_ipcalc](../documents/cs_ipcalc.pdf) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
