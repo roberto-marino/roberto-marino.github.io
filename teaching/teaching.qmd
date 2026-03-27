@@ -26,7 +26,7 @@ Il corso, diviso in tre parti, si propone di:
 |8| 20 Marzo 2026 | I/O Multiplexing con epoll() | [Slides](../documents/resid26_epoll.pdf), [<span style="color:#cc0000">HO6</span>](../documents/resid26_ho6.pdf), [server_epoll.c](https://github.com/roberto-marino/roberto-marino.github.io/blob/main/src/server_epoll.c), [test_multifd.sh](../src/test_multifd.sh)| Piccardi Ch.10 |
 |9| 24 Marzo 2026 | Review and consolidation | | |
 |10| 26 Marzo 2026 | Spazi di Indirizzamento IP | [Slides](../documents/resid26_indirizzamento.pdf), [CS_iptools](../documents/cs_iptools.pdf), [CS_ipcalc](../documents/cs_ipcalc.pdf) | |
-|11| 27 Marzo 2026 | Socket Multicast | [Slides](../documents/resid26_multicast.pdf), [<span style="color:#cc0000">HO7</span>](../documents/resid26_ho7.pdf), [receiver.c](../src/receiver.c), [sender.c](../src/sender.c) | |
+|11| 27 Marzo 2026 | Socket Multicast | [Slides](../documents/resid26_multicast.pdf), [<span style="color:#cc0000">HO7</span>](../documents/resid26_ho7.pdf), [receiver.c](../src/receiver.c), [sender.c](../src/sender.c) | Piccardi Ch.16, [Link](https://www.cs.emory.edu/~cheung/Courses/558/Syllabus/14-Multicast/intro.html) |
 : Course Schedule {.striped}
 
 ### Prerequisiti
