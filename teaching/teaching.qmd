@@ -80,6 +80,8 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 |-|------------------|----------------------------------|------------------------------------------|---------------|
 |1| 18 Marzo 2026 | Introduzione alla robotica, Trasformazioni   | [Slides 0](../documents/rob0.pdf), [Slides 1](../documents/rob1.pdf)  | Khalil, Chapt. 1-2 |
 |2| 24 Marzo 2026 | Recap, Rappresentazioni Angolari, Screw Theory   | [Robolib](../documents/robolib.zip), [Notebook ITA/ENG](../documents/NB2.zip)  | Khalil, Chapt. 1-2 |
+|3| 1 Aprile 2026 | Direct Geometric Model   | [Slides](../documents/rob3.pdf), [Notebook ITA/ENG](../documents/ur5_intro.zip)  | Khalil, Chapt. 3, [CoppeliaSim](http://www.coppeliarobotics.com) |
+
 : Course Schedule {.striped}    
 
 ## Prerequisiti
