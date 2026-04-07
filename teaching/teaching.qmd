@@ -71,7 +71,7 @@ LabReSiD25-26@unime URL: [t.me/labresid2526](https://t.me/labresid2526)
 
 # Computational Modeling for Robotics and Human Computer Interaction
 
-Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecizione.
+Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche di modellazione computazionale delle principali tipologie di robot (manipolatori robotici, Robot mobili su ruote e volanti) e gli algoritmi di funzionamento dei visori per realtà immersiva (Kalman, VIO, SLAM). Il corso prevede un test finale di verifica della partecipazione.
 
 
 # Programma del corso
