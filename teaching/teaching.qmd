@@ -27,6 +27,7 @@ Il corso, diviso in tre parti, si propone di:
 |9| 24 Marzo 2026 | Review and consolidation | | |
 |10| 26 Marzo 2026 | Spazi di Indirizzamento IP | [Slides](../documents/resid26_indirizzamento.pdf), [CS_iptools](../documents/cs_iptools.pdf), [CS_ipcalc](../documents/cs_ipcalc.pdf) | |
 |11| 27 Marzo 2026 | Socket Multicast | [Slides](../documents/resid26_multicast.pdf), [<span style="color:#cc0000">HO7</span>](../documents/resid26_ho7.pdf), [receiver.c](../src/receiver.c), [sender.c](../src/sender.c) | Piccardi Ch.16, [Link](https://www.cs.emory.edu/~cheung/Courses/558/Syllabus/14-Multicast/intro.html) |
+|12| 10 Aprile 2026 | Netlink: Comunicare con il Kernel via Socket | [Slides](../documents/resid26_netlink.pdf), [<span style="color:#cc0000">HO8</span>](../documents/resid26_ho8.pdf), [receiver.c](../src/nl_dummy.c) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
