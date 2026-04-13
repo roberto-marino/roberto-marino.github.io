@@ -109,6 +109,8 @@ int main(void)
     /* ifinfomsg: famiglia generica (non IPv4 ne' IPv6) */
     msg.ifi.ifi_family = AF_UNSPEC;
 
+    /* ----- TO DO: Qui va costruito il messaggio NETLINK -----*/
+
     /* ── Passo 3: invia il messaggio al kernel ── */
     send(nl, &msg, msg.hdr.nlmsg_len, 0);
 
