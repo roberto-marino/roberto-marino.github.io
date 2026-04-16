@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Roberto Marino, PhD",
-    "section": "",
-    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy"
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Roberto Marino, PhD",
-    "section": "Bio",
-    "text": "Bio\nI’m a computational roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and came back there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program (EMARO) and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
-  },
-  {
-    "objectID": "index.html#key-research-interest",
-    "href": "index.html#key-research-interest",
-    "title": "Roberto Marino, PhD",
-    "section": "Key research interest",
-    "text": "Key research interest\n\nRobotics and Autonomous Systems: Aerial Robot Modeling, Data-Driven Control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)\nScientific Machine Learning: Physics-Informed Neural Network, Neural Stochastic Differential Equations\nDistributed Learning: Federated Learning, Multi-Agent Reinforcement Learning"
-  },
-  {
-    "objectID": "index.html#personal-life",
-    "href": "index.html#personal-life",
-    "title": "Roberto Marino, PhD",
-    "section": "Personal Life",
-    "text": "Personal Life\nI am married to Chiara and father of Emma and Agnese. I have a background as a scout educator in AGESCI (the Italian Catholic Guides and Scouts Association), and I was deeply involved in promoting the rights of migrants and refugees in my city.\nI love music and piano, particularly enjoying jazz, progressive rock, and classical music, with a boundless love for Bach, Schubert and Debussy.\nI also love cooking with a preference for Arab-Norman dishes and local street-food."
-  },
-  {
-    "objectID": "papers/papers.html",
-    "href": "papers/papers.html",
-    "title": "Papers",
-    "section": "",
-    "text": "Lorenzo Carnevale, Antonio Filograna, Francesco Arigliano, Roberto Marino, Armando Ruggeri, and Maria Fazio. 2023. “Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: The TEMA Architecture.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632371.\nMario Colosi, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform to Enable Pervasive Computing for Disaster Management.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–4. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632372.\nRoberto Marino, Lorenzo Carnevale, Maria Fazio, and Massimo Villari. 2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632373.\nRoberto Marino, Lorenzo Carnevale, and Massimo Villari. 2023. “When Robotics Meets Distributed Learning: The Federated Learning Robotic Network Framework.” In 2023 IEEE Symposium on Computers and Communications (ISCC), 1–6. Gammarth, Tunisia: IEEE. https://doi.org/10.1109/ISCC58397.2023.10218022.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost Platform for Distributed Data-Driven Structural Health Monitoring.” In 2024 IEEE Symposium on Computers and Communications (ISCC), 1–6. Paris, France: IEEE. https://doi.org/10.1109/ISCC61673.2024.10733602.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, and Salvatore Magazù. 2023. “OpenSEM: An Open Framework for Data-Driven Structural and Environmental Monitoring.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–2. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632377.\nRoberto Marino, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato Zaccaria. 2016. “A Minimalistic Quadrotor Navigation Strategy for Indoor Multi-Floor Scenarios.” In Intelligent Autonomous Systems 13, edited by Emanuele Menegatti, Nathan Michael, Karsten Berns, and Hiroaki Yamaguchi, 302:1561–70. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-08338-4_112."
-  },
-  {
     "objectID": "teaching/teaching.html",
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Il corso, diviso in tre parti, si propone di:\n\nParte I: Affrontare le principali problematiche legate alla programmazione di rete in linguaggio C utilizzando gli strumenti acquisiti per osservare l’utilizzo dello stack TCP/IP\nParte II: Introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix\nParte III: Introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\n\nCourse Schedule\n\n\n#\nData\nLezione\nMateriale\nRiferimenti\n\n\n\n\n1\n3 Marzo 2026\nIntroduzione al corso e Packet Analysis\nSlides, CS1, CS2\nKurose Ch.1, Lordal Ch.1\n\n\n2\n5 Marzo 2026\nStack ISO/OSI ed Introduzione ai Socket\nSlides, CS3, CS4, CS5, CS_wf\nLordal Ch.1,2 and Piccardi Ch.13,14\n\n\n3\n6 Marzo 2026\nSocket Programming in Linux\nSlides, CS6, HO1, server_tcp.c, client_tcp.c\nPiccardi Ch.13,14\n\n\n4\n10 Marzo 2026\nTCP Fragmentation\nHO2\nPiccardi Ch.15\n\n\n5\n12 Marzo 2026\nSocket Raw di livello 2\nHO3, sniffer_base.c\n\n\n\n6\n13 Marzo 2026\nSocket Raw di livello 3\nHO4, ip_sniffer_base.c\n\n\n\n7\n19 Marzo 2026\nI/O Multiplexing con select()\nSlides, HO5, server_select.c, test_multifd.sh\nPiccardi Ch.10\n\n\n8\n20 Marzo 2026\nI/O Multiplexing con epoll()\nSlides, HO6, server_epoll.c, test_multifd.sh\nPiccardi Ch.10\n\n\n9\n24 Marzo 2026\nReview and consolidation\n\n\n\n\n10\n26 Marzo 2026\nSpazi di Indirizzamento IP\nSlides, CS_iptools, CS_ipcalc\n\n\n\n11\n27 Marzo 2026\nSocket Multicast\nSlides, HO7, receiver.c, sender.c\nPiccardi Ch.16, Link\n\n\n12\n10 Aprile 2026\nNetlink: Comunicare con il Kernel via Socket\nSlides, HO8, nl_dummy.c\n\n\n\n13\n14 Aprile 2026\nVirtual Interfaces and Veth-Pair\nSlides, HO9, veth_create_obs.c\n\n\n\n14\n16 Aprile 2026\nProgramming a Container from Scratch\nSlides, HO10, container.c\n\n\n\n\n\n\n\n\nProgrammazione di base in Linguaggio C (Il linguaggio C, Kernighan & Ritchie, Computer Systems: A Programmer Perspective)\nConcetti di Reti di Calcolatori: Tcp/Ip, Routing\nConcetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads, Primitive di sincronizzazione\nConcetti di Algoritmi: Macchine a stati finiti, Complessità Computazionale, Algoritmi su grafi ed alberi\n\n\n\n\nReport delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica dei concetti e delle abilità acquisite durante le attività di laboratorio)\n\n\n\nLabReSiD25-26@unime URL: t.me/labresid2526\n\n\n\n\nRoss Kurose, “Reti di Calcolatori ed Internet. Un approccio Top-down” Pearson, 8th edition, english version on-line\nPeter L. Lordal, “An Introduction to Computer Networks”, on-line\nRichard W. Stevens, “UNIX Network Programming”, Volume 1, Second Edition: Networking APIs: Sockets and XTI, Prentice Hall\nRichard W. Stevens, “UNIX Network Programming”, Volume 2, Second Edition: Interprocess Communications, Prentice Hall\nSimone Piccardi, “GAPIL: Guida alla programmazione in Linux”, on-line\nAchille Pattavina, “Internet e Reti. Fondamenti”, Pearson, 3rd edition\nAndrew S. Tanenbaum, “Sistemi Distribuiti. Principi e paradigmi”, Pearson\nFrancesco Bullo, Jorge Cortés, Sonia Martinez, “Distributed Control of Robotic Networks”, on-line\nRobert Love, “Linux Kernel Development”, Novell, Second Edition\n\n\n\n\n\nx86 and amd64 Instruction Reference, on-line\nLinux Kernel Source Navigator, on-line"
+    "text": "Il corso, diviso in tre parti, si propone di:\n\nParte I: Affrontare le principali problematiche legate alla programmazione di rete in linguaggio C utilizzando gli strumenti acquisiti per osservare l’utilizzo dello stack TCP/IP\nParte II: Introdurre i concetti della programmazione concorrente e dei meccanismi di sincronizzazioni offerti dai sistemi *nix\nParte III: Introdurre le tematiche della programmazione distributa attraverso il modello ad Automi a Stati Finiti\n\n\nCourse Schedule\n\n\n#\nData\nLezione\nMateriale\nRiferimenti\n\n\n\n\n1\n3 Marzo 2026\nIntroduzione al corso e Packet Analysis\nSlides, CS1, CS2\nKurose Ch.1, Lordal Ch.1\n\n\n2\n5 Marzo 2026\nStack ISO/OSI ed Introduzione ai Socket\nSlides, CS3, CS4, CS5, CS_wf\nLordal Ch.1,2 and Piccardi Ch.13,14\n\n\n3\n6 Marzo 2026\nSocket Programming in Linux\nSlides, CS6, HO1, server_tcp.c, client_tcp.c\nPiccardi Ch.13,14\n\n\n4\n10 Marzo 2026\nTCP Fragmentation\nHO2\nPiccardi Ch.15\n\n\n5\n12 Marzo 2026\nSocket Raw di livello 2\nHO3, sniffer_base.c\n\n\n\n6\n13 Marzo 2026\nSocket Raw di livello 3\nHO4, ip_sniffer_base.c\n\n\n\n7\n19 Marzo 2026\nI/O Multiplexing con select()\nSlides, HO5, server_select.c, test_multifd.sh\nPiccardi Ch.10\n\n\n8\n20 Marzo 2026\nI/O Multiplexing con epoll()\nSlides, HO6, server_epoll.c, test_multifd.sh\nPiccardi Ch.10\n\n\n9\n24 Marzo 2026\nReview and consolidation\n\n\n\n\n10\n26 Marzo 2026\nSpazi di Indirizzamento IP\nSlides, CS_iptools, CS_ipcalc\n\n\n\n11\n27 Marzo 2026\nSocket Multicast\nSlides, HO7, receiver.c, sender.c\nPiccardi Ch.16, Link\n\n\n12\n10 Aprile 2026\nNetlink: Comunicare con il Kernel via Socket\nSlides, HO8, nl_dummy.c\n\n\n\n13\n14 Aprile 2026\nVirtual Interfaces and Veth-Pair\nSlides, HO9, veth_create_obs.c\n\n\n\n14\n16 Aprile 2026\nProgramming a Container from Scratch\nSlides, HO10, container.c\n\n\n\n15\n17 Aprile 2026\nRouting through namespaces\nHO11, topo.c\n\n\n\n\n\n\n\n\nProgrammazione di base in Linguaggio C (Il linguaggio C, Kernighan & Ritchie, Computer Systems: A Programmer Perspective)\nConcetti di Reti di Calcolatori: Tcp/Ip, Routing\nConcetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads, Primitive di sincronizzazione\nConcetti di Algoritmi: Macchine a stati finiti, Complessità Computazionale, Algoritmi su grafi ed alberi\n\n\n\n\nReport delle esercitazioni + Progetto Finale + Presentazione Orale (con verifica dei concetti e delle abilità acquisite durante le attività di laboratorio)\n\n\n\nLabReSiD25-26@unime URL: t.me/labresid2526\n\n\n\n\nRoss Kurose, “Reti di Calcolatori ed Internet. Un approccio Top-down” Pearson, 8th edition, english version on-line\nPeter L. Lordal, “An Introduction to Computer Networks”, on-line\nRichard W. Stevens, “UNIX Network Programming”, Volume 1, Second Edition: Networking APIs: Sockets and XTI, Prentice Hall\nRichard W. Stevens, “UNIX Network Programming”, Volume 2, Second Edition: Interprocess Communications, Prentice Hall\nSimone Piccardi, “GAPIL: Guida alla programmazione in Linux”, on-line\nAchille Pattavina, “Internet e Reti. Fondamenti”, Pearson, 3rd edition\nAndrew S. Tanenbaum, “Sistemi Distribuiti. Principi e paradigmi”, Pearson\nFrancesco Bullo, Jorge Cortés, Sonia Martinez, “Distributed Control of Robotic Networks”, on-line\nRobert Love, “Linux Kernel Development”, Novell, Second Edition\n\n\n\n\n\nx86 and amd64 Instruction Reference, on-line\nLinux Kernel Source Navigator, on-line"
   },
   {
     "objectID": "teaching/teaching.html#prerequisiti-1",
@@ -70,6 +35,13 @@
     "text": "Bibliografia\n\nWisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science\nSiciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill\nRoland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press"
   },
   {
+    "objectID": "papers/papers.html",
+    "href": "papers/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Lorenzo Carnevale, Antonio Filograna, Francesco Arigliano, Roberto Marino, Armando Ruggeri, and Maria Fazio. 2023. “Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: The TEMA Architecture.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632371.\nMario Colosi, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform to Enable Pervasive Computing for Disaster Management.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–4. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632372.\nRoberto Marino, Lorenzo Carnevale, Maria Fazio, and Massimo Villari. 2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632373.\nRoberto Marino, Lorenzo Carnevale, and Massimo Villari. 2023. “When Robotics Meets Distributed Learning: The Federated Learning Robotic Network Framework.” In 2023 IEEE Symposium on Computers and Communications (ISCC), 1–6. Gammarth, Tunisia: IEEE. https://doi.org/10.1109/ISCC58397.2023.10218022.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost Platform for Distributed Data-Driven Structural Health Monitoring.” In 2024 IEEE Symposium on Computers and Communications (ISCC), 1–6. Paris, France: IEEE. https://doi.org/10.1109/ISCC61673.2024.10733602.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, and Salvatore Magazù. 2023. “OpenSEM: An Open Framework for Data-Driven Structural and Environmental Monitoring.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–2. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632377.\nRoberto Marino, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato Zaccaria. 2016. “A Minimalistic Quadrotor Navigation Strategy for Indoor Multi-Floor Scenarios.” In Intelligent Autonomous Systems 13, edited by Emanuele Menegatti, Nathan Michael, Karsten Berns, and Hiroaki Yamaguchi, 302:1561–70. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-08338-4_112."
+  },
+  {
     "objectID": "theses/theses.html",
     "href": "theses/theses.html",
     "title": "Theses Supervision",
@@ -96,5 +68,33 @@
     "title": "Theses Supervision",
     "section": "Available Thesis Topics",
     "text": "Available Thesis Topics\n\nData-Driven OS Scheduling control through eBPF and PyTorch\nMulti-Agent Reinforcement Learning (MARL) in MuJoCo\n\nNote. Feel free to contact me by email to propose your thesis idea."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Roberto Marino, PhD",
+    "section": "",
+    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Roberto Marino, PhD",
+    "section": "Bio",
+    "text": "Bio\nI’m a computational roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and came back there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program (EMARO) and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
+  },
+  {
+    "objectID": "index.html#key-research-interest",
+    "href": "index.html#key-research-interest",
+    "title": "Roberto Marino, PhD",
+    "section": "Key research interest",
+    "text": "Key research interest\n\nRobotics and Autonomous Systems: Aerial Robot Modeling, Data-Driven Control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)\nScientific Machine Learning: Physics-Informed Neural Network, Neural Stochastic Differential Equations\nDistributed Learning: Federated Learning, Multi-Agent Reinforcement Learning"
+  },
+  {
+    "objectID": "index.html#personal-life",
+    "href": "index.html#personal-life",
+    "title": "Roberto Marino, PhD",
+    "section": "Personal Life",
+    "text": "Personal Life\nI am married to Chiara and father of Emma and Agnese. I have a background as a scout educator in AGESCI (the Italian Catholic Guides and Scouts Association), and I was deeply involved in promoting the rights of migrants and refugees in my city.\nI love music and piano, particularly enjoying jazz, progressive rock, and classical music, with a boundless love for Bach, Schubert and Debussy.\nI also love cooking with a preference for Arab-Norman dishes and local street-food."
   }
 ]

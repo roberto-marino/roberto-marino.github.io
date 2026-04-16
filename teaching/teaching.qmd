@@ -30,6 +30,7 @@ Il corso, diviso in tre parti, si propone di:
 |12| 10 Aprile 2026 | Netlink: Comunicare con il Kernel via Socket | [Slides](../documents/resid26_netlink.pdf), [<span style="color:#cc0000">HO8</span>](../documents/resid26_ho8.pdf), [nl_dummy.c](../src/nl_dummy.c) | |
 |13| 14 Aprile 2026 | Virtual Interfaces and Veth-Pair | [Slides](../documents/resid26_vi_veth.pdf), [<span style="color:#cc0000">HO9</span>](../documents/resid26_ho9.pdf), [veth_create_obs.c](../src/veth_create_obs.c) | |
 |14| 16 Aprile 2026 | Programming a Container from Scratch | [Slides](../documents/resid26_container.pdf), [<span style="color:#cc0000">HO10</span>](../documents/resid26_ho10.pdf), [container.c](../src/container.c) | |
+|15| 17 Aprile 2026 | Routing through namespaces | [<span style="color:#cc0000">HO11</span>](../documents/resid26_ho11.pdf), [topo.c](../src/topo.c) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
