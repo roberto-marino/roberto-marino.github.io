@@ -39,7 +39,7 @@
 /* Arpa per inet_pton */
 #include <arpa/inet.h>
 
-/* ─── Costanti ─────────────────────────────────────────────────────── */
+/* Costanti */
 #define NETNS_RUN_DIR   "/run/netns"
 #define NS_CLIENT       "/run/netns/ns_client"
 #define NS_ROUTER       "/run/netns/ns_router"
@@ -47,7 +47,7 @@
 
 #define NL_BUFSIZE      8192
 
-/* ─── Helpers Netlink ───────────────────────────────────────────────── */
+/* Helpers Netlink */
 
 /*
  * nl_open() — Apre un socket Netlink NETLINK_ROUTE e lo lega al processo.
@@ -122,7 +122,7 @@ static void nl_nest_close(struct nlmsghdr *nlh, struct rtattr *start) {
     start->rta_len = (char *)nlh + NLMSG_ALIGN(nlh->nlmsg_len) - (char *)start;
 }
 
-/* ─── Gestione dei namespace ────────────────────────────────────────── */
+/* Gestione dei namespace */
 
 /*
  * netns_create() — Crea un named network namespace in /run/netns/<name>.
@@ -187,10 +187,10 @@ static void netns_restore(int root_fd) {
     close(root_fd);
 }
 
-/* ─── Operazioni Netlink ────────────────────────────────────────────── */
+/* Operazioni Netlink */
 
 /*
- * nl_create_veth() — Crea una coppia veth nel namespace corrente.
+ * nl_create_veth() - Crea una coppia veth nel namespace corrente.
  *
  * Messaggio RTM_NEWLINK con:
  *   IFLA_IFNAME     = nome interfaccia "locale"
@@ -241,7 +241,7 @@ static void nl_create_veth(int nlfd, const char *name, const char *peer_name) {
 }
 
 /*
- * nl_iface_index() — Recupera l'ifindex di un'interfaccia tramite ioctl.
+ * nl_iface_index() - Recupera l'ifindex di un'interfaccia tramite ioctl.
  * (Più semplice di un RTM_GETLINK per questo scopo.)
  */
 static int nl_iface_index(const char *name) {
@@ -431,25 +431,25 @@ static void nl_ip_forward(void) {
     close(fd);
 }
 
-/* ─── Main ──────────────────────────────────────────────────────────── */
+/* Main */
 
 int main(void) {
     /* Assicura che /run/netns esista */
     mkdir(NETNS_RUN_DIR, 0755);
 
-    /* ── 1. Crea i tre namespace ──────────────────────────────────── */
+    /* 1. Crea i tre namespace */
     printf("\n=== Creazione namespace ===\n");
     netns_create(NS_CLIENT);
     netns_create(NS_ROUTER);
     netns_create(NS_SERVER);
 
-    /* ── 2. Nel root namespace: crea le coppie veth ──────────────── */
+    /* 2. Nel root namespace: crea le coppie veth */
     printf("\n=== Creazione coppie veth (root ns) ===\n");
     int nlfd = nl_open();
     nl_create_veth(nlfd, "veth0", "veth1");   /* coppia A */
     nl_create_veth(nlfd, "veth2", "veth3");   /* coppia B */
 
-    /* ── 3. Sposta le interfacce nei namespace giusti ────────────── */
+    /* 3. Sposta le interfacce nei namespace giusti */
     printf("\n=== Spostamento interfacce ===\n");
     nl_move_to_ns(nlfd, "veth0", NS_CLIENT);
     nl_move_to_ns(nlfd, "veth1", NS_ROUTER);
@@ -457,7 +457,7 @@ int main(void) {
     nl_move_to_ns(nlfd, "veth3", NS_SERVER);
     close(nlfd);
 
-    /* ── 4. Configura ns_client ──────────────────────────────────── */
+    /* 4. Configura ns_client */
     printf("\n=== Configurazione ns_client ===\n");
     int root_fd = netns_enter(NS_CLIENT);
     nlfd = nl_open();
@@ -468,7 +468,7 @@ int main(void) {
     close(nlfd);
     netns_restore(root_fd);
 
-    /* ── 5. Configura ns_router ──────────────────────────────────── */
+    /* 5. Configura ns_router */
     printf("\n=== Configurazione ns_router ===\n");
     root_fd = netns_enter(NS_ROUTER);
     nlfd = nl_open();
@@ -481,7 +481,7 @@ int main(void) {
     close(nlfd);
     netns_restore(root_fd);
 
-    /* ── 6. Configura ns_server ──────────────────────────────────── */
+    /* 6. Configura ns_server */
     printf("\n=== Configurazione ns_server ===\n");
     root_fd = netns_enter(NS_SERVER);
     nlfd = nl_open();
