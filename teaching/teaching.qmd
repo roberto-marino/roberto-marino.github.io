@@ -39,7 +39,7 @@ Il corso, diviso in tre parti, si propone di:
 - Concetti di Reti di Sistemi Operativi: Scheduling dei processi, Threads, Primitive di sincronizzazione
 - Concetti di Algoritmi: Macchine a stati finiti, Complessità Computazionale, Algoritmi su grafi ed alberi
 
-### Student Report Tracker [Link](https://docs.google.com/spreadsheets/d/1BKUMWUGtVRyRPycEsoQVzcOsX0i2isjq-T4r1oLNfIU/edit?usp=sharing)
+### [Student Reports Tracker](https://docs.google.com/spreadsheets/d/1BKUMWUGtVRyRPycEsoQVzcOsX0i2isjq-T4r1oLNfIU/edit?usp=sharing)
 
 ### Modalità d'esame
 Report delle esercitazioni + Progetto Finale + Presentazione Orale (<span style="color:#cc0000">con verifica dei concetti e delle abilità acquisite durante le attività di laboratorio</span>)
