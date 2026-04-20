@@ -90,6 +90,7 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 |3| 1 Aprile 2026 | Direct Geometric Model   | [Slides](../documents/rob3.pdf), [Notebook ITA/ENG](../documents/ur5_intro.zip)  | Khalil, Chapt. 3, [CoppeliaSim](http://www.coppeliarobotics.com) |
 |4| 8 Aprile 2026 | Franka Emika Panda Geometric Modelling | [Notebook ITA/ENG](../documents/FrankaEmikaModel.zip) | [Franka Emika Panda Robot](https://franka.de), [Overleaf](https://www.overleaf.com) |
 |5| 15 Aprile 2026 | Kinematic and Dynamic model |[Slides](../documents/rob4.pdf) | |
+|6| 22 Aprile 2026 | Mobile Robot: Differential Drive | [Slides](../documents/Robotics_Differential_Drive.pdf), [Notebook ITA/ENG](../documents/pioneer_coppelia.zip) | |
 : Course Schedule {.striped}    
 
 ## Prerequisiti
