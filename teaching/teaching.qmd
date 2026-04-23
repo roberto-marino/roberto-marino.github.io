@@ -33,6 +33,7 @@ Il corso, diviso in tre parti, si propone di:
 |15| 17 Aprile 2026 | Routing through namespaces | [<span style="color:#cc0000">HO11</span>](../documents/resid26_ho11.pdf), [topo.c](../src/topo.c) | |
 |16| 21 Aprile 2026 | Preprocessing, Compiling, Assembly, Linking | [Slides](../documents/resid26_pcal.pdf), [example.c](../src/example.c), [example.s](../src/example.s)  | <span style="color:#cc0000">No reports needed</span> |
 |17| 23 Aprile 2026 | Executable and Linkable Format | [Slides](../documents/resid26_elf.pdf) | <span style="color:#cc0000">No reports needed</span>, CSAPP: Chapter 7 |
+|18| 24 Aprile 2026 | GNU Make | [Slides](../documents/resid26_make.pdf), [make_example.zip](../documents/make_example.zip) | <span style="color:#cc0000">No reports needed</span> |  
 : Course Schedule {.striped}
 
 ### Prerequisiti
