@@ -15,12 +15,12 @@ title: "Theses Supervision"
 
 ## Available Thesis and Apprenticeship Topics
 
-*. Multi-Agent simulator with namespace in C++
-*. Namespace isolation in ZephyrOS
-*. Containerization for eFPGA SoC (Quicklogic EoS S3)
-*. Resource isolation for heterogeneous SoC (STM32Mp2)
+1. Multi-Agent simulator with namespace in C++
+2. Namespace isolation in ZephyrOS
+3. Containerization for eFPGA SoC (Quicklogic EoS S3)
+4. Resource isolation for heterogeneous SoC (STM32Mp2)
 
-*. Multi-Agent Reinforcement Learning (MARL) in MuJoCo
+5. Multi-Agent Reinforcement Learning (MARL) in MuJoCo
 
 
 **Note.** Feel free to contact me by email to propose your thesis idea.

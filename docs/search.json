@@ -67,7 +67,7 @@
     "href": "theses/theses.html#available-thesis-and-apprenticeship-topics",
     "title": "Theses Supervision",
     "section": "Available Thesis and Apprenticeship Topics",
-    "text": "Available Thesis and Apprenticeship Topics\n. Multi-Agent simulator with namespace in C++ . Namespace isolation in ZephyrOS . Containerization for eFPGA SoC (Quicklogic EoS S3) . Resource isolation for heterogeneous SoC (STM32Mp2)\n*. Multi-Agent Reinforcement Learning (MARL) in MuJoCo\nNote. Feel free to contact me by email to propose your thesis idea."
+    "text": "Available Thesis and Apprenticeship Topics\n\nMulti-Agent simulator with namespace in C++\nNamespace isolation in ZephyrOS\nContainerization for eFPGA SoC (Quicklogic EoS S3)\nResource isolation for heterogeneous SoC (STM32Mp2)\nMulti-Agent Reinforcement Learning (MARL) in MuJoCo\n\nNote. Feel free to contact me by email to propose your thesis idea."
   },
   {
     "objectID": "index.html",
