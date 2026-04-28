@@ -6,17 +6,21 @@ title: "Theses Supervision"
 
 1. **Emanuele Ribecco**: "Apprendimento federato per la classificazione di immagini su dati IID e non-IID", (B.Sc. Computer Science)
 2. **Davide Mento**: "Metodologie distribuite per la classificazione di grandi set di dati", (B.Sc. Computer Science)
-
+3. **Mattia Musarra Tubbi**: "Curriculum Reinforcement Learning for Humanoid Robot Stand-UP", (B.Sc. Computer Science)
 
 ## Present Theses:
 
-3. **Manuel Rosario Sciuto**
-4. **Mattia Musarra Tubbi**
-5. **Adel Shatani**
+3. **Manuel Rosario Sciuto**: "Data-Driven OS Scheduling through eBPF and PyTorch"
+4. **Adel Shatani**: TbD
 
-## Available Thesis Topics
+## Available Thesis and Apprenticeship Topics
 
-1. Data-Driven OS Scheduling control through eBPF and PyTorch
-2. Multi-Agent Reinforcement Learning (MARL) in MuJoCo
+*. Multi-Agent simulator with namespace in C++
+*. Namespace isolation in ZephyrOS
+*. Containerization for eFPGA SoC (Quicklogic EoS S3)
+*. Resource isolation for heterogeneous SoC (STM32Mp2)
+
+*. Multi-Agent Reinforcement Learning (MARL) in MuJoCo
+
 
 **Note.** Feel free to contact me by email to propose your thesis idea.

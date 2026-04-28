@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Roberto Marino, PhD",
-    "section": "",
-    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy"
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Roberto Marino, PhD",
-    "section": "Bio",
-    "text": "Bio\nI’m a computational roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and came back there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program (EMARO) and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
-  },
-  {
-    "objectID": "index.html#key-research-interest",
-    "href": "index.html#key-research-interest",
-    "title": "Roberto Marino, PhD",
-    "section": "Key research interest",
-    "text": "Key research interest\n\nRobotics and Autonomous Systems: Aerial Robot Modeling, Data-Driven Control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)\nScientific Machine Learning: Physics-Informed Neural Network, Neural Stochastic Differential Equations\nDistributed Learning: Federated Learning, Multi-Agent Reinforcement Learning"
-  },
-  {
-    "objectID": "index.html#personal-life",
-    "href": "index.html#personal-life",
-    "title": "Roberto Marino, PhD",
-    "section": "Personal Life",
-    "text": "Personal Life\nI am married to Chiara and father of Emma and Agnese. I have a background as a scout educator in AGESCI (the Italian Catholic Guides and Scouts Association), and I was deeply involved in promoting the rights of migrants and refugees in my city.\nI love music and piano, particularly enjoying jazz, progressive rock, and classical music, with a boundless love for Bach, Schubert and Debussy.\nI also love cooking with a preference for Arab-Norman dishes and local street-food."
-  },
-  {
-    "objectID": "papers/papers.html",
-    "href": "papers/papers.html",
-    "title": "Papers",
-    "section": "",
-    "text": "Lorenzo Carnevale, Antonio Filograna, Francesco Arigliano, Roberto Marino, Armando Ruggeri, and Maria Fazio. 2023. “Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: The TEMA Architecture.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632371.\nMario Colosi, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform to Enable Pervasive Computing for Disaster Management.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–4. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632372.\nRoberto Marino, Lorenzo Carnevale, Maria Fazio, and Massimo Villari. 2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632373.\nRoberto Marino, Lorenzo Carnevale, and Massimo Villari. 2023. “When Robotics Meets Distributed Learning: The Federated Learning Robotic Network Framework.” In 2023 IEEE Symposium on Computers and Communications (ISCC), 1–6. Gammarth, Tunisia: IEEE. https://doi.org/10.1109/ISCC58397.2023.10218022.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost Platform for Distributed Data-Driven Structural Health Monitoring.” In 2024 IEEE Symposium on Computers and Communications (ISCC), 1–6. Paris, France: IEEE. https://doi.org/10.1109/ISCC61673.2024.10733602.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, and Salvatore Magazù. 2023. “OpenSEM: An Open Framework for Data-Driven Structural and Environmental Monitoring.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–2. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632377.\nRoberto Marino, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato Zaccaria. 2016. “A Minimalistic Quadrotor Navigation Strategy for Indoor Multi-Floor Scenarios.” In Intelligent Autonomous Systems 13, edited by Emanuele Menegatti, Nathan Michael, Karsten Berns, and Hiroaki Yamaguchi, 302:1561–70. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-08338-4_112."
-  },
-  {
     "objectID": "teaching/teaching.html",
     "href": "teaching/teaching.html",
     "title": "Teaching",
@@ -70,31 +35,66 @@
     "text": "Bibliografia\n\nWisama Khalil, Etienne Dombre, ”Modeling, Identification and Control of Robots”, Kogan Page Science\nSiciliano, Sciavicco, Villani, Oriolo, ”Robotica: Modellistica, Pianificazione e Controllo”, McGrawHill\nRoland Siegwart, Illah Reza Nourbakhsh, Davide Scaramuzza, ”Introduction to Autonomous Mobile Robots”, MIT Press"
   },
   {
+    "objectID": "papers/papers.html",
+    "href": "papers/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Lorenzo Carnevale, Antonio Filograna, Francesco Arigliano, Roberto Marino, Armando Ruggeri, and Maria Fazio. 2023. “Supporting the Natural Disaster Management Distributing Federated Intelligence over the Cloud-Edge Continuum: The TEMA Architecture.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632371.\nMario Colosi, Marco Garofalo, Lorenzo Carnevale, Roberto Marino, Maria Fazio, and Massimo Villari. 2023. “EDGEmergency: A Cloud-Edge Platform to Enable Pervasive Computing for Disaster Management.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–4. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632372.\nRoberto Marino, Lorenzo Carnevale, Maria Fazio, and Massimo Villari. 2023. “Make Federated Learning a Standard in Robotics by Using ROS2.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–6. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632373.\nRoberto Marino, Lorenzo Carnevale, and Massimo Villari. 2023. “When Robotics Meets Distributed Learning: The Federated Learning Robotic Network Framework.” In 2023 IEEE Symposium on Computers and Communications (ISCC), 1–6. Gammarth, Tunisia: IEEE. https://doi.org/10.1109/ISCC58397.2023.10218022.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, Mark Adrian Gambito, and Massimo Villari. 2024. “A Low Cost Platform for Distributed Data-Driven Structural Health Monitoring.” In 2024 IEEE Symposium on Computers and Communications (ISCC), 1–6. Paris, France: IEEE. https://doi.org/10.1109/ISCC61673.2024.10733602.\nRoberto Marino, Antonino Marino, Domenica De Domenico, Lorenzo Carnevale, and Salvatore Magazù. 2023. “OpenSEM: An Open Framework for Data-Driven Structural and Environmental Monitoring.” In Proceedings of the IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies, 1–2. Taormina (Messina) Italy: ACM. https://doi.org/10.1145/3632366.3632377.\nRoberto Marino, Fulvio Mastrogiovanni, Antonio Sgorbissa, and Renato Zaccaria. 2016. “A Minimalistic Quadrotor Navigation Strategy for Indoor Multi-Floor Scenarios.” In Intelligent Autonomous Systems 13, edited by Emanuele Menegatti, Nathan Michael, Karsten Berns, and Hiroaki Yamaguchi, 302:1561–70. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-08338-4_112."
+  },
+  {
     "objectID": "theses/theses.html",
     "href": "theses/theses.html",
     "title": "Theses Supervision",
     "section": "",
-    "text": "Emanuele Ribecco: “Apprendimento federato per la classificazione di immagini su dati IID e non-IID”, (B.Sc. Computer Science)\nDavide Mento: “Metodologie distribuite per la classificazione di grandi set di dati”, (B.Sc. Computer Science)"
+    "text": "Emanuele Ribecco: “Apprendimento federato per la classificazione di immagini su dati IID e non-IID”, (B.Sc. Computer Science)\nDavide Mento: “Metodologie distribuite per la classificazione di grandi set di dati”, (B.Sc. Computer Science)\nMattia Musarra Tubbi: “Curriculum Reinforcement Learning for Humanoid Robot Stand-UP”, (B.Sc. Computer Science)"
   },
   {
     "objectID": "theses/theses.html#past-theses",
     "href": "theses/theses.html#past-theses",
     "title": "Theses Supervision",
     "section": "",
-    "text": "Emanuele Ribecco: “Apprendimento federato per la classificazione di immagini su dati IID e non-IID”, (B.Sc. Computer Science)\nDavide Mento: “Metodologie distribuite per la classificazione di grandi set di dati”, (B.Sc. Computer Science)"
+    "text": "Emanuele Ribecco: “Apprendimento federato per la classificazione di immagini su dati IID e non-IID”, (B.Sc. Computer Science)\nDavide Mento: “Metodologie distribuite per la classificazione di grandi set di dati”, (B.Sc. Computer Science)\nMattia Musarra Tubbi: “Curriculum Reinforcement Learning for Humanoid Robot Stand-UP”, (B.Sc. Computer Science)"
   },
   {
     "objectID": "theses/theses.html#present-theses",
     "href": "theses/theses.html#present-theses",
     "title": "Theses Supervision",
     "section": "Present Theses:",
-    "text": "Present Theses:\n\nManuel Rosario Sciuto\nMattia Musarra Tubbi\nAdel Shatani"
+    "text": "Present Theses:\n\nManuel Rosario Sciuto: “Data-Driven OS Scheduling through eBPF and PyTorch”\nAdel Shatani: TbD"
   },
   {
-    "objectID": "theses/theses.html#available-thesis-topics",
-    "href": "theses/theses.html#available-thesis-topics",
+    "objectID": "theses/theses.html#available-thesis-and-apprenticeship-topics",
+    "href": "theses/theses.html#available-thesis-and-apprenticeship-topics",
     "title": "Theses Supervision",
-    "section": "Available Thesis Topics",
-    "text": "Available Thesis Topics\n\nData-Driven OS Scheduling control through eBPF and PyTorch\nMulti-Agent Reinforcement Learning (MARL) in MuJoCo\n\nNote. Feel free to contact me by email to propose your thesis idea."
+    "section": "Available Thesis and Apprenticeship Topics",
+    "text": "Available Thesis and Apprenticeship Topics\n. Multi-Agent simulator with namespace in C++ . Namespace isolation in ZephyrOS . Containerization for eFPGA SoC (Quicklogic EoS S3) . Resource isolation for heterogeneous SoC (STM32Mp2)\n*. Multi-Agent Reinforcement Learning (MARL) in MuJoCo\nNote. Feel free to contact me by email to propose your thesis idea."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Roberto Marino, PhD",
+    "section": "",
+    "text": "“The miracle is this - the more we share, the more we have” ― Leonard Nimoy"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Roberto Marino, PhD",
+    "section": "Bio",
+    "text": "Bio\nI’m a computational roboticist working at the intersection of AI/ML, control theory and distributed systems.\nI attended the University of Messina for my undergraduate studies and came back there for my Research Fellowship.\nI also hold degrees from University of Genova and Ecole Centrale de Nantes where I studied under an ERASMUS Mundus scholarship program (EMARO) and I completed my PhD.\nI’m currently a Research Fellow at Future Computing Research Laboratory of University of Messina under the supervision of prof. Massimo Villari, where I currently follow lines of research about Distributed Learning, Physics-Informed Machine Learning and Clinical Data Modeling."
+  },
+  {
+    "objectID": "index.html#key-research-interest",
+    "href": "index.html#key-research-interest",
+    "title": "Roberto Marino, PhD",
+    "section": "Key research interest",
+    "text": "Key research interest\n\nRobotics and Autonomous Systems: Aerial Robot Modeling, Data-Driven Control, Lagrangian modeling, DMOC (Discrete Mechanics and Optimal Control)\nScientific Machine Learning: Physics-Informed Neural Network, Neural Stochastic Differential Equations\nDistributed Learning: Federated Learning, Multi-Agent Reinforcement Learning"
+  },
+  {
+    "objectID": "index.html#personal-life",
+    "href": "index.html#personal-life",
+    "title": "Roberto Marino, PhD",
+    "section": "Personal Life",
+    "text": "Personal Life\nI am married to Chiara and father of Emma and Agnese. I have a background as a scout educator in AGESCI (the Italian Catholic Guides and Scouts Association), and I was deeply involved in promoting the rights of migrants and refugees in my city.\nI love music and piano, particularly enjoying jazz, progressive rock, and classical music, with a boundless love for Bach, Schubert and Debussy.\nI also love cooking with a preference for Arab-Norman dishes and local street-food."
   }
 ]
