@@ -55,7 +55,7 @@ int main(void) {
         }
 
         if (pid == 0) {
-            /* ── FIGLIO ──────────────────────────────────────────────
+            /* -- FIGLIO --
              * TODO: esegui il comando con execvp(argv[0], argv).
              *
              * execvp cerca il programma nel PATH, quindi "ls" funziona
@@ -68,12 +68,12 @@ int main(void) {
              * IMPORTANTE: se non chiami exit() dopo execvp() fallita,
              * il figlio continua ad eseguire il codice del padre
              * (il loop while), aprendo un secondo prompt annidato.
-             * ──────────────────────────────────────────────────────── */
+             */
 
             /* TODO */
 
         } else {
-            /* ── PADRE ──────────────────────────────────────────────
+            /* -- PADRE --
              * TODO: aspetta che il figlio termini con waitpid().
              *
              * Usa la variabile 'status' per raccogliere il codice
@@ -84,7 +84,7 @@ int main(void) {
              *   WEXITSTATUS(status) → codice passato a exit()
              *   WIFSIGNALED(status) → vero se ucciso da un segnale
              *   WTERMSIG(status)    → numero del segnale
-             * ──────────────────────────────────────────────────────── */
+             */
 
             int status;
             (void)status;    /* rimuovi questo cast quando usi status */
