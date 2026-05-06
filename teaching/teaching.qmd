@@ -37,6 +37,8 @@ Il corso, diviso in tre parti, si propone di:
 |19| 28 Aprile 2026 | Programmazione Concorrente | [Slides](../documents/resid26_concorrente.pdf) | |  
 |20| 30 Aprile 2026 | Unità di Esecuzione in Linux | [Slides](../documents/resid26_unita_esecuzione.pdf), [<span style="color:#cc0000">HO12</span>](../documents/resid26_ho12.pdf), [minish_skeleton.c](../src/minish_skeleton.c) | Piccardi Ch.11 |
 |21| 5 Maggio 2026 | Posix Threads | [Slides](../documents/resid26_threads.pdf), [<span style="color:#cc0000">HO13</span>](../documents/resid26_ho13.pdf) | |
+|22| 7 Maggio 2026 | Atomicità e Mutua Esclusione | [Slides](../documents/resid26_mutex.pdf), [<span style="color:#cc0000">HO14</span>](../documents/resid26_ho14.pdf), [banca.c](../src/banca.c), [stampante.c](../src/stampante.c), [rubrica.c](../src/rubrica.c) |  |
+|23| 7 Maggio 2026 | Condition Variabless | [Slides](../documents/resid26_cv.pdf), [<span style="color:#cc0000">HO15</span>](../documents/resid26_ho15.pdf), [steè1.c](../src/step1.c), [step2.c](../src/step2.c), [step3.c](../src/step3.c), [step4.c](../src/step4.c) |  |
 : Course Schedule {.striped}
 
 ### Prerequisiti
@@ -96,6 +98,7 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 |4| 8 Aprile 2026 | Franka Emika Panda Geometric Modelling | [Notebook ITA/ENG](../documents/FrankaEmikaModel.zip) | [Franka Emika Panda Robot](https://franka.de), [Overleaf](https://www.overleaf.com) |
 |5| 15 Aprile 2026 | Kinematic and Dynamic model |[Slides](../documents/rob4.pdf) | |
 |6| 22 Aprile 2026 | Mobile Robots: Differential Drive | [Slides](../documents/Robotics_Differential_Drive.pdf), [Notebook ITA/ENG](../documents/pioneer_coppelia.zip) | |
+|7| 7 Maggio 2026 | Flying Robots: Modeling and Control | [Slides](../documents/Robotics_Quadrotor.pdf), [ControllerIT](../documents/RoboticsController_it.pdf), [ControllerEN](../documents/RoboticsController_en.pdf), [quadroto_mujoco_cpp.zip](../src/quadrotor_mujoco_cpp.zip) | |
 : Course Schedule {.striped}    
 
 ## Prerequisiti
