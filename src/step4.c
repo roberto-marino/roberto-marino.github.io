@@ -16,7 +16,6 @@
 #define N     8
 #define NITEM 10000
 
-/* ── Buffer ─────────────────────────────────────────────────────────── */
 
 typedef struct {
     int buf[N];
@@ -36,7 +35,6 @@ int buf_get(Buffer *b) {
     return v;
 }
 
-/* ── Struttura condivisa ────────────────────────────────────────────── */
 
 typedef struct {
     Buffer          b;
@@ -45,7 +43,6 @@ typedef struct {
     pthread_cond_t  not_empty;  /* segnalata dal produttore  */
 } Shared;
 
-/* ── Thread ─────────────────────────────────────────────────────────── */
 
 /*
  * Produttore corretto.
@@ -123,7 +120,6 @@ static void *consumatore(void *arg) {
     return NULL;
 }
 
-/* ── Main ───────────────────────────────────────────────────────────── */
 
 int main(void) {
     Shared s = {0};

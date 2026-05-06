@@ -38,7 +38,7 @@ Il corso, diviso in tre parti, si propone di:
 |20| 30 Aprile 2026 | Unità di Esecuzione in Linux | [Slides](../documents/resid26_unita_esecuzione.pdf), [<span style="color:#cc0000">HO12</span>](../documents/resid26_ho12.pdf), [minish_skeleton.c](../src/minish_skeleton.c) | Piccardi Ch.11 |
 |21| 5 Maggio 2026 | Posix Threads | [Slides](../documents/resid26_threads.pdf), [<span style="color:#cc0000">HO13</span>](../documents/resid26_ho13.pdf) | |
 |22| 7 Maggio 2026 | Atomicità e Mutua Esclusione | [Slides](../documents/resid26_mutex.pdf), [<span style="color:#cc0000">HO14</span>](../documents/resid26_ho14.pdf), [banca.c](../src/banca.c), [stampante.c](../src/stampante.c), [rubrica.c](../src/rubrica.c) |  |
-|23| 7 Maggio 2026 | Condition Variabless | [Slides](../documents/resid26_cv.pdf), [<span style="color:#cc0000">HO15</span>](../documents/resid26_ho15.pdf), [steè1.c](../src/step1.c), [step2.c](../src/step2.c), [step3.c](../src/step3.c), [step4.c](../src/step4.c) |  |
+|23| 7 Maggio 2026 | Condition Variables | [Slides](../documents/resid26_cv.pdf), [<span style="color:#cc0000">HO15</span>](../documents/resid26_ho15.pdf), [step1.c](../src/step1.c), [step2.c](../src/step2.c), [step3.c](../src/step3.c), [step4.c](../src/step4.c) |  |
 : Course Schedule {.striped}
 
 ### Prerequisiti

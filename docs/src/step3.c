@@ -16,7 +16,6 @@
 #define N     4     /* buffer piccolo: deadlock piu' rapido */
 #define NITEM 32
 
-/* ── Buffer ─────────────────────────────────────────────────────────── */
 
 typedef struct {
     int buf[N];
@@ -36,14 +35,12 @@ int buf_get(Buffer *b) {
     return v;
 }
 
-/* ── Struttura condivisa ────────────────────────────────────────────── */
 
 typedef struct {
     Buffer          b;
     pthread_mutex_t mtx;
 } Shared;
 
-/* ── Thread ─────────────────────────────────────────────────────────── */
 
 /*
  * Produttore con mutex.
@@ -101,7 +98,6 @@ static void *consumatore(void *arg) {
     return NULL;
 }
 
-/* ── Main ───────────────────────────────────────────────────────────── */
 
 int main(void) {
     Shared s = {0};

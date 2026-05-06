@@ -16,7 +16,6 @@
 #define N     8
 #define NITEM 32
 
-/* ── Buffer (invariato dalla fase 1) ───────────────────────────────── */
 
 typedef struct {
     int buf[N];
@@ -36,7 +35,6 @@ int buf_get(Buffer *b) {
     return v;
 }
 
-/* ── Thread ─────────────────────────────────────────────────────────── */
 
 /*
  * Produttore: inserisce NITEM valori nel buffer.
@@ -92,7 +90,6 @@ static void *consumatore(void *arg) {
     return NULL;
 }
 
-/* ── Main ───────────────────────────────────────────────────────────── */
 
 int main(void) {
     Buffer    b  = {0};

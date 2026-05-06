@@ -12,7 +12,6 @@
 #define N     8
 #define NITEM 16
 
-/* ── Buffer circolare ───────────────────────────────────────────────── */
 
 typedef struct {
     int buf[N];
@@ -31,8 +30,6 @@ int buf_get(Buffer *b) {
     b->count--;
     return v;
 }
-
-/* ── Main ───────────────────────────────────────────────────────────── */
 
 int main(void) {
     Buffer b = {0};
