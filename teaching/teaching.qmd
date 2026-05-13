@@ -100,7 +100,7 @@ Il corso, teorico/simulativo, della durata di 30 ore (3CFU) affronta le tecniche
 |5| 15 Aprile 2026 | Kinematic and Dynamic model |[Slides](../documents/rob4.pdf) | |
 |6| 22 Aprile 2026 | Mobile Robots: Differential Drive | [Slides](../documents/Robotics_Differential_Drive.pdf), [Notebook ITA/ENG](../documents/pioneer_coppelia.zip) | |
 |7| 7 Maggio 2026 | Flying Robots: Modeling and Control | [Slides](../documents/Robotics_Quadrotor.pdf), [ControllerIT](../documents/RoboticsController_it.pdf), [ControllerEN](../documents/RoboticsController_en.pdf), [quadroto_mujoco_cpp.zip](../src/quadrotor_mujoco_cpp.zip) | |
-|8| 13 Maggio 2026 | Sensors, Measurements, Estimation | [Slides](../docume    nts/robotics_kalman.pdf) | |
+|8| 13 Maggio 2026 | Sensors, Measurements, Estimation | [Slides](../documents/robotics_kalman.pdf) | |
 : Course Schedule {.striped}    
 
 ## Prerequisiti
