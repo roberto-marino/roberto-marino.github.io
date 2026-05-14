@@ -40,6 +40,7 @@ Il corso, diviso in tre parti, si propone di:
 |22| 7 Maggio 2026 | Atomicità e Mutua Esclusione | [Slides](../documents/resid26_mutex.pdf), [<span style="color:#cc0000">HO14</span>](../documents/resid26_ho14.pdf), [banca.c](../src/banca.c), [stampante.c](../src/stampante.c), [rubrica.c](../src/rubrica.c) |  |
 |23| 7 Maggio 2026 | Condition Variables | [Slides](../documents/resid26_cv.pdf), [<span style="color:#cc0000">HO15</span>](../documents/resid26_ho15.pdf), [step1.c](../src/step1.c), [step2.c](../src/step2.c), [step3.c](../src/step3.c), [step4.c](../src/step4.c) |  |
 |24| 12 Maggio 2026 | Semaphores, Inter-Process-Communication, Shared Memory | [Slides](../documents/resid26_sem_ipc.pdf), [<span style="color:#cc0000">HO16</span>](../documents/resid26_ho16.pdf), [writer_sem.c](../src/writer_sem.c), [reader_sem.c](../src/reader_sem.c)|  |
+|25| 14 Maggio 2026 | Introduzione ai Sistemi Distribuiti | [Slides](../documents/resid26_introdistr.pdf) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
