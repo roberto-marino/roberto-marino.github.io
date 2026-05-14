@@ -41,6 +41,7 @@ Il corso, diviso in tre parti, si propone di:
 |23| 7 Maggio 2026 | Condition Variables | [Slides](../documents/resid26_cv.pdf), [<span style="color:#cc0000">HO15</span>](../documents/resid26_ho15.pdf), [step1.c](../src/step1.c), [step2.c](../src/step2.c), [step3.c](../src/step3.c), [step4.c](../src/step4.c) |  |
 |24| 12 Maggio 2026 | Semaphores, Inter-Process-Communication, Shared Memory | [Slides](../documents/resid26_sem_ipc.pdf), [<span style="color:#cc0000">HO16</span>](../documents/resid26_ho16.pdf), [writer_sem.c](../src/writer_sem.c), [reader_sem.c](../src/reader_sem.c)|  |
 |25| 14 Maggio 2026 | Introduzione ai Sistemi Distribuiti | [Slides](../documents/resid26_introdistr.pdf) | |
+|26| 15 Maggio 2026 | Il tempo nei Sistemi Distribuiti | [Slides](../documents/resid26_tempodistr.pdf), [<span style="color:#cc0000">HO17</span>](../documents/resid26_ho17.pdf), [infra.h](../src/infra.h), [es1_lamport.c](../src/es1_lamport.c), [es2_vector.c](../src/es2_vector.c), [es3_mutex.c](../src/es3_mutex.c) | [Lamport Paper](../documents/lamport_paper.pdf) |
 : Course Schedule {.striped}
 
 ### Prerequisiti
