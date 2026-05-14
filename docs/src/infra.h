@@ -19,17 +19,17 @@
 #include <pthread.h>
 #include <unistd.h>
 
-/* ── Costanti ───────────────────────────────────────────────────── */
+/* Costanti */
 #define N      3        /* numero di nodi                           */
 #define QSIZE  256      /* capacità massima di ogni coda            */
 
-/* ── Tipi di messaggio ──────────────────────────────────────────── */
+/* Tipi di messaggio */
 #define MSG_DATA    1   /* messaggio dati generico   (es. 1 e 2)    */
 #define MSG_REQUEST 2   /* richiesta sezione critica (es. 3)        */
 #define MSG_ACK     3   /* ACK a una REQUEST         (es. 3)        */
 #define MSG_RELEASE 4   /* rilascio sezione critica  (es. 3)        */
 
-/* ── Struttura messaggio ────────────────────────────────────────── */
+/* Struttura messaggio */
 typedef struct {
     int type;           /* uno dei MSG_* sopra                      */
     int from;           /* ID mittente (0 .. N-1)                   */
@@ -38,7 +38,7 @@ typedef struct {
     int payload;        /* dato applicativo opzionale               */
 } Msg;
 
-/* ── Coda FIFO thread-safe ──────────────────────────────────────── */
+/* Coda FIFO thread-safe */
 typedef struct {
     Msg             buf[QSIZE];
     int             head, tail, count;
@@ -49,7 +49,7 @@ typedef struct {
 /* Una coda per nodo: queues[i] raccoglie i messaggi diretti a P_i  */
 Queue queues[N];
 
-/* ── Funzioni di coda ───────────────────────────────────────────── */
+/* Funzioni di coda */
 
 static inline void q_init(Queue *q) {
     q->head = q->tail = q->count = 0;
@@ -82,7 +82,7 @@ static inline Msg q_pop(Queue *q) {
     return m;
 }
 
-/* ── API pubblica ───────────────────────────────────────────────── */
+/* API pubblica */
 
 /* Invia il messaggio m al nodo dst */
 static inline void send_msg(int dst, Msg m) {
