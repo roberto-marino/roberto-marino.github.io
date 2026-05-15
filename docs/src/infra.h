@@ -1,4 +1,4 @@
-/* infra.h — infrastruttura condivisa per HO #12
+/* infra.h - infrastruttura condivisa per HO #17
  *
  * Fornisce:
  *   - struttura Msg e costanti MSG_*
