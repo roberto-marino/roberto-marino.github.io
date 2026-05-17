@@ -1,8 +1,8 @@
 /* ================================================================
- * ho18_skeleton.c  —  Hands-On #18
+ * ho18_skeleton.c  --  Hands-On #18
  * Algoritmi distribuiti in C: processi, pipe e sincronizzazione
  *
- * Universita' di Messina — Reti e Sistemi Distribuiti Mod.B
+ * Universita' di Messina -- Reti e Sistemi Distribuiti Mod.B
  *
  * Compilazione:
  *   gcc -Wall -Wextra -o ho18 ho18_skeleton.c -lm && ./ho18
@@ -15,7 +15,7 @@
 #include <math.h>
 #include <string.h>
 
-/* ── Costanti ──────────────────────────────────────────────────────── */
+/* -- Costanti -------------------------------------------------------- */
 #define N        5          /* numero di nodi / processori              */
 #define SOURCE   0          /* nodo sorgente per entrambi gli algoritmi */
 #define ROUNDS   N          /* round totali (n e' sufficiente per BF)   */
@@ -23,7 +23,7 @@
 #define INF      (1e18)     /* infinito per Bellman-Ford                */
 #define NO_PAR   (-1)       /* nessun parent                            */
 
-/* ── Pipe globali ──────────────────────────────────────────────────── */
+/* -- Pipe globali ---------------------------------------------------- */
 /* msg_pipe[i][j][2]: canale da i a j
  *   i scrive su msg_pipe[i][j][1]
  *   j legge da  msg_pipe[i][j][0]
@@ -34,11 +34,11 @@
 int msg_pipe[N][N][2];
 int ack_pipe[N][N][2];
 
-/* ── Topologia ─────────────────────────────────────────────────────── */
+/* -- Topologia ------------------------------------------------------- */
 /* adj[i][j] = peso dell'arco i->j  (0.0 = arco assente)              */
 double adj[N][N] = {
     /* ============================================================
-     * TODO — Task 1.1
+     * TODO -- Task 1.1
      * Inserire i pesi degli archi secondo il grafo dell'HO-18.
      * Archi:  0->1:2  0->2:5  1->2:1  1->3:4  2->3:2
      *         2->4:6  3->4:1  3->0:3  4->1:1
@@ -50,7 +50,7 @@ double adj[N][N] = {
     {0, 0, 0, 0, 0},   /* riga 4 */
 };
 
-/* ── Strutture di stato ────────────────────────────────────────────── */
+/* -- Strutture di stato ---------------------------------------------- */
 
 /* Stato di ogni processore nell'algoritmo Flooding.
  * Corrisponde a w = (parent, data, snd_flag) del modello formale.
@@ -73,10 +73,10 @@ typedef struct {
 } BFState;
 
 /* ================================================================
- * FUNZIONI FORNITE — non modificare
+ * FUNZIONI FORNITE -- non modificare
  * ================================================================ */
 
-/* ── create_pipes() ─────────────────────────────────────────────── */
+/* -- create_pipes() ----------------------------------------------- */
 void create_pipes(void) {
     for (int i = 0; i < N; i++)
         for (int j = 0; j < N; j++) {
@@ -86,7 +86,7 @@ void create_pipes(void) {
         }
 }
 
-/* ── close_unused_fds() ─────────────────────────────────────────── */
+/* -- close_unused_fds() ------------------------------------------- */
 void close_unused_fds(int id) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
@@ -105,7 +105,7 @@ void close_unused_fds(int id) {
     }
 }
 
-/* ── I/O sulle pipe ─────────────────────────────────────────────── */
+/* -- I/O sulle pipe ----------------------------------------------- */
 void send_double(int fd, double val) {
     if (write(fd, &val, sizeof(double)) != sizeof(double))
         { perror("write"); exit(1); }
@@ -125,7 +125,7 @@ void recv_ack(int fd) { char c;     read(fd,  &c, 1); }
  * FUNZIONI DA IMPLEMENTARE
  * ================================================================ */
 
-/* ── flood_msg() ────────────────────────────────────────────────── */
+/* -- flood_msg() -------------------------------------------------- */
 /*
  * Funzione msg(w, i) del modello formale per il Flooding.
  *
@@ -140,13 +140,13 @@ void recv_ack(int fd) { char c;     read(fd,  &c, 1); }
  */
 double flood_msg(int id, FloodState *s, int neighbor) {
     /* ============================================================
-     * TODO — Task 1.2
+     * TODO -- Task 1.2
      * ============================================================ */
     (void)id; (void)s; (void)neighbor;
     return NULL_MSG;
 }
 
-/* ── flood_stf() ────────────────────────────────────────────────── */
+/* -- flood_stf() -------------------------------------------------- */
 /*
  * Funzione stf(w, y) del modello formale per il Flooding.
  *
@@ -163,12 +163,12 @@ double flood_msg(int id, FloodState *s, int neighbor) {
  */
 void flood_stf(int id, FloodState *s, double in_msgs[N]) {
     /* ============================================================
-     * TODO — Task 1.3
+     * TODO -- Task 1.3
      * ============================================================ */
     (void)id; (void)s; (void)in_msgs;
 }
 
-/* ── bf_msg() ───────────────────────────────────────────────────── */
+/* -- bf_msg() ----------------------------------------------------- */
 /*
  * Funzione msg(w, i) del modello formale per Bellman-Ford distribuito.
  *
@@ -184,13 +184,13 @@ void flood_stf(int id, FloodState *s, double in_msgs[N]) {
  */
 double bf_msg(int id, BFState *s, int round, int neighbor) {
     /* ============================================================
-     * TODO — Task 2.1
+     * TODO -- Task 2.1
      * ============================================================ */
     (void)id; (void)s; (void)round; (void)neighbor;
     return NULL_MSG;
 }
 
-/* ── bf_stf() ───────────────────────────────────────────────────── */
+/* -- bf_stf() ----------------------------------------------------- */
 /*
  * Funzione stf(w, y) del modello formale per Bellman-Ford distribuito.
  *
@@ -205,13 +205,13 @@ double bf_msg(int id, BFState *s, int round, int neighbor) {
  */
 void bf_stf(int id, BFState *s, double in_msgs[N]) {
     /* ============================================================
-     * TODO — Task 2.2
+     * TODO -- Task 2.2
      * ============================================================ */
     (void)id; (void)s; (void)in_msgs;
 }
 
 /* ================================================================
- * FUNZIONI FORNITE — loop dei round (non modificare)
+ * FUNZIONI FORNITE -- loop dei round (non modificare)
  * ================================================================ */
 
 void run_flooding(int id) {
@@ -287,10 +287,10 @@ void run_bf(int id) {
     fflush(stdout);
 }
 
-/* ── main() ─────────────────────────────────────────────────────── */
+/* -- main() ------------------------------------------------------- */
 int main(void) {
 
-    /* ── Parte 1: Flooding ──────────────────────────────────────── */
+    /* -- Parte 1: Flooding ---------------------------------------- */
     printf("=== Flooding Algorithm (sorgente: nodo %d) ===\n", SOURCE);
     fflush(stdout);
     create_pipes();
@@ -307,7 +307,7 @@ int main(void) {
         }
     for (int i = 0; i < N; i++) wait(NULL);
 
-    /* ── Parte 2: Bellman-Ford ──────────────────────────────────── */
+    /* -- Parte 2: Bellman-Ford ------------------------------------ */
     printf("\n=== Distributed Bellman-Ford (sorgente: nodo %d) ===\n", SOURCE);
     fflush(stdout);
     create_pipes();
