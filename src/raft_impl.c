@@ -21,7 +21,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-/* ── Costanti ────────────────────────────────────────────────────── */
+/* -- Costanti ------------------------------------------------------ */
 #define N         5      /* numero di server nel cluster              */
 #define BASE_PORT 5000   /* server i ascolta su BASE_PORT+i           */
 #define MAX_LOG   256    /* lunghezza massima del log (entry)         */
@@ -30,14 +30,14 @@
 #define EMAX_MS   300    /* timeout elezione: massimo in ms (random)  */
 #define AE_BATCH  8      /* entry max per messaggio AppendEntries     */
 
-/* ── Tipi di messaggio ───────────────────────────────────────────── */
+/* -- Tipi di messaggio --------------------------------------------- */
 #define MSG_RV      1   /* RequestVote          candidate → tutti    */
 #define MSG_RVR     2   /* RequestVote Reply    tutti     → candidate */
 #define MSG_AE      3   /* AppendEntries        leader   → follower  */
 #define MSG_AER     4   /* AppendEntries Reply  follower → leader    */
 #define MSG_CLIENT  5   /* Comando client       client   → tutti     */
 
-/* ── Stato del server ───────────────────────────────────────────── */
+/* -- Stato del server --------------------------------------------- */
 typedef enum { FOLLOWER, CANDIDATE, LEADER } role_t;
 static const char *ROLE[] = { "FOLLOWER", "CANDIDATE", "LEADER" };
 
@@ -47,7 +47,7 @@ typedef struct { int term; int cmd; } entry_t;
 /* Header comune a tutti i messaggi */
 typedef struct { int type; int term; int from; } hdr_t;
 
-/* ── Strutture dei messaggi ──────────────────────────────────────── */
+/* -- Strutture dei messaggi ---------------------------------------- */
 
 /* RequestVote: il candidato dichiara il proprio log */
 typedef struct {
@@ -95,7 +95,7 @@ typedef union {
     msg_client_t client;
 } msg_t;
 
-/* ── Stato completo di un server ─────────────────────────────────── */
+/* -- Stato completo di un server ----------------------------------- */
 typedef struct {
     /* identità */
     int    id;
