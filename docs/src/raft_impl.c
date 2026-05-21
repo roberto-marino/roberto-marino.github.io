@@ -21,7 +21,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-/* ── Costanti ────────────────────────────────────────────────────── */
+/* -- Costanti ------------------------------------------------------ */
 #define N         5      /* numero di server nel cluster              */
 #define BASE_PORT 5000   /* server i ascolta su BASE_PORT+i           */
 #define MAX_LOG   256    /* lunghezza massima del log (entry)         */
@@ -30,14 +30,14 @@
 #define EMAX_MS   300    /* timeout elezione: massimo in ms (random)  */
 #define AE_BATCH  8      /* entry max per messaggio AppendEntries     */
 
-/* ── Tipi di messaggio ───────────────────────────────────────────── */
+/* -- Tipi di messaggio --------------------------------------------- */
 #define MSG_RV      1   /* RequestVote          candidate → tutti    */
 #define MSG_RVR     2   /* RequestVote Reply    tutti     → candidate */
 #define MSG_AE      3   /* AppendEntries        leader   → follower  */
 #define MSG_AER     4   /* AppendEntries Reply  follower → leader    */
 #define MSG_CLIENT  5   /* Comando client       client   → tutti     */
 
-/* ── Stato del server ───────────────────────────────────────────── */
+/* -- Stato del server --------------------------------------------- */
 typedef enum { FOLLOWER, CANDIDATE, LEADER } role_t;
 static const char *ROLE[] = { "FOLLOWER", "CANDIDATE", "LEADER" };
 
@@ -47,7 +47,7 @@ typedef struct { int term; int cmd; } entry_t;
 /* Header comune a tutti i messaggi */
 typedef struct { int type; int term; int from; } hdr_t;
 
-/* ── Strutture dei messaggi ──────────────────────────────────────── */
+/* -- Strutture dei messaggi ---------------------------------------- */
 
 /* RequestVote: il candidato dichiara il proprio log */
 typedef struct {
@@ -95,7 +95,7 @@ typedef union {
     msg_client_t client;
 } msg_t;
 
-/* ── Stato completo di un server ─────────────────────────────────── */
+/* -- Stato completo di un server ----------------------------------- */
 typedef struct {
     /* identità */
     int    id;
@@ -124,9 +124,6 @@ typedef struct {
     int  fd;
 } srv_t;
 
-/* ═══════════════════════════════════════════════════════════════════
- * Utilità
- * ═══════════════════════════════════════════════════════════════════ */
 
 /* Millisecondi monotoni dall'avvio del sistema */
 static long ms_now(void) {
@@ -174,9 +171,6 @@ static void reset_election_timer(srv_t *s) {
     s->elect_ms   = EMIN_MS + rand() % (EMAX_MS - EMIN_MS);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Transizioni di stato
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void become_follower(srv_t *s, int new_term) {
     if (s->role != FOLLOWER)
@@ -223,9 +217,7 @@ static void become_leader(srv_t *s) {
     s->hb_sent_at = 0; /* forza heartbeat immediato */
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Replicazione del log
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 /* Invia AppendEntries (o heartbeat se il follower è aggiornato) */
 static void send_ae(srv_t *s, int dest) {
@@ -275,9 +267,7 @@ static void update_commit(srv_t *s) {
     }
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Handler dei messaggi in ingresso
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 static void on_request_vote(srv_t *s, msg_rv_t *m) {
     /* concedi il voto se:
@@ -399,9 +389,6 @@ static void on_client_cmd(srv_t *s, msg_client_t *m) {
             send_ae(s, i);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Loop principale del server
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void server_loop(int id) {
     setbuf(stdout, NULL); /* disabilita buffering: printf immediato */
@@ -480,9 +467,6 @@ static void server_loop(int id) {
     }
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Client interattivo (processo padre)
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void client_loop(void) {
     int fd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -506,9 +490,7 @@ static void client_loop(void) {
     close(fd);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * main: avvia N server e poi diventa il client
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 int main(void) {
     printf("=== Raft demo: %d server, porte %d-%d ===\n\n",

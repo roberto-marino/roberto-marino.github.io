@@ -124,9 +124,6 @@ typedef struct {
     int  fd;
 } srv_t;
 
-/* ═══════════════════════════════════════════════════════════════════
- * Utilità
- * ═══════════════════════════════════════════════════════════════════ */
 
 /* Millisecondi monotoni dall'avvio del sistema */
 static long ms_now(void) {
@@ -174,9 +171,6 @@ static void reset_election_timer(srv_t *s) {
     s->elect_ms   = EMIN_MS + rand() % (EMAX_MS - EMIN_MS);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Transizioni di stato
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void become_follower(srv_t *s, int new_term) {
     if (s->role != FOLLOWER)
@@ -223,9 +217,7 @@ static void become_leader(srv_t *s) {
     s->hb_sent_at = 0; /* forza heartbeat immediato */
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Replicazione del log
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 /* Invia AppendEntries (o heartbeat se il follower è aggiornato) */
 static void send_ae(srv_t *s, int dest) {
@@ -275,9 +267,7 @@ static void update_commit(srv_t *s) {
     }
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Handler dei messaggi in ingresso
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 static void on_request_vote(srv_t *s, msg_rv_t *m) {
     /* concedi il voto se:
@@ -399,9 +389,6 @@ static void on_client_cmd(srv_t *s, msg_client_t *m) {
             send_ae(s, i);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Loop principale del server
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void server_loop(int id) {
     setbuf(stdout, NULL); /* disabilita buffering: printf immediato */
@@ -480,9 +467,6 @@ static void server_loop(int id) {
     }
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * Client interattivo (processo padre)
- * ═══════════════════════════════════════════════════════════════════ */
 
 static void client_loop(void) {
     int fd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -506,9 +490,7 @@ static void client_loop(void) {
     close(fd);
 }
 
-/* ═══════════════════════════════════════════════════════════════════
- * main: avvia N server e poi diventa il client
- * ═══════════════════════════════════════════════════════════════════ */
+
 
 int main(void) {
     printf("=== Raft demo: %d server, porte %d-%d ===\n\n",
