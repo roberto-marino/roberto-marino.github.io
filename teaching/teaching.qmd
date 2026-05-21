@@ -44,6 +44,7 @@ Il corso, diviso in tre parti, si propone di:
 |26| 15 Maggio 2026 | Il tempo nei Sistemi Distribuiti | [Slides](../documents/resid26_tempodistr.pdf), [<span style="color:#cc0000">HO17</span>](../documents/resid26_ho17.pdf), [infra.h](../src/infra.h), [es1_lamport.c](../src/es1_lamport.c), [es2_vector.c](../src/es2_vector.c), [es3_mutex.c](../src/es3_mutex.c) | [Lamport Paper](../documents/lamport_paper.pdf) |
 |27| 18 Maggio 2026 | Comunicazione nei Sistemi Distribuiti | [Slides](../documents/resid26_distrcom.pdf), [<span style="color:#cc0000">HO18</span>](../documents/resid26_ho18.pdf), [ho18_skeleton.c](../src/ho18_skeleton.c) | Bullo,Cortez,Martinez Ch.3, <span style="color:#cc0000">Makefile needed!</span> |
 |28| 19 Maggio 2026 | Leader Election | [Slides](../documents/resid26_distrleader.pdf), [<span style="color:#cc0000">HO19</span>](../documents/resid26_ho19.pdf), [ho19_lcr_skeleton.c](../src/ho19_lcr_skeleton.c), [ho19_floodmax_skeleton.c](../src/ho19_floodmax_skeleton.c)  | Bullo, Cortez, Martinez Ch.3, <span style="color:#cc0000">Makefile needed!</span> |
+|29| 21 Maggio 2026 | Il problema del consenso: RAFT | [Slides](../documents/resid26_raft.pdf), [<span style="color:#cc0000">HO20</span>](../documents/resid26_ho20.pdf), [Raft Algorithm](../documents/resid26_raft_algo.pdf), [ho19_lcr_skeleton.c](../src/raft_impl.c) | |
 : Course Schedule {.striped}
 
 ### Prerequisiti
